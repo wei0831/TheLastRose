@@ -1,0 +1,66 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "FlyingDustParticle",
+	},
+	Archetyped = 
+	{
+		string Name = "5280c44bd8ee3584:FlyingDustParticle",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-0.349888, -1.37932, 0.9375],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SpriteParticleSystem = 
+	{
+		SystemChildMode ChildMode = Independent,
+		SystemSpace SystemSpace = WorldSpace,
+		uint DrawOrder = 0,
+		ParticleGeometry GeometryMode = Billboarded,
+		ParticleRenderMode RenderMode = Additive,
+		ParticleSortMode SortMode = None,
+		string Texture = "4e11a21a2e25bfd8:Twinkle",
+		Vec4 Tint = [0.375, 0.27375, 0.27375, 0.1],
+		float VelocityScale = 1,
+		float LengthScale = 0,
+		float MaxParticleSize = 100,
+		Vec3 SystemSize = [5, 5, 5],
+	},
+	LinearParticleAnimator = 
+	{
+		Vec3 Force = [0, -0.3, 0],
+		Vec3 RandomForce = [0, 0, 0],
+		float Torque = 0,
+		float Growth = 0,
+		float Dampening = 0,
+		Vec3 Twist = [0, 0, 0],
+	},
+	SphericalParticleEmitter = 
+	{
+		bool Active = true,
+		uint EmitCount = 0,
+		float EmitRate = 20,
+		float EmitVariance = 0,
+		float Size = 0.4,
+		float SizeVariance = 0,
+		float Lifetime = 10,
+		float LifetimeVariance = 0,
+		float Spin = 30,
+		float SpinVariance = 0,
+		bool RandomSpin = true,
+		float Fill = 0,
+		float EmitterVelocityPercent = 0,
+		Vec3 StartVelocity = [0, 0, 0],
+		Vec3 RandomVelocity = [1.5, 1.5, 1.5],
+		Vec3 TangentVelocity = [0, 0, 0],
+		Vec3 EmitterSize = [10, 10, 0],
+		bool FastMovingEmitter = false,
+	},
+},

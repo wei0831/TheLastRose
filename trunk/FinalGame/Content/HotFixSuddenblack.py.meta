@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "HotFixSuddenblack",
+		uint64 ResourceId = 52b9130e0e8a7f4c,
+	},
+},

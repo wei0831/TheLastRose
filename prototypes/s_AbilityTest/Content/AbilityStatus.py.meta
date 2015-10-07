@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AbilityStatus",
+		uint64 ResourceId = 524f626dd15a8d4e,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "BlinkAnim",
+		uint64 ResourceId = 526900327fd5b174,
+	},
+},

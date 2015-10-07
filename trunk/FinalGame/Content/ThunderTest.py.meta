@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ThunderTest",
+		uint64 ResourceId = 526836af86bb3245,
+	},
+},

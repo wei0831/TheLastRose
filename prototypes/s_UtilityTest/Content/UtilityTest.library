@@ -1,0 +1,16 @@
+ContentLibrary = 
+{
+	string Name = "UtilityTest",
+	Array Files = 
+	[
+		"ActionList.py",
+		"Game.data",
+		"Level.data",
+		"Space.data",
+		"TimedDeath.py",
+		"gamelogic.py",
+	],
+	uint64 LibraryId = 524fc112969c92a4,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

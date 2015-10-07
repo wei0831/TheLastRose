@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "RandomFlickering",
+		uint64 ResourceId = 529f91482792685f,
+	},
+},

@@ -1,0 +1,58 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "TreeSkillWhirlingnut",
+			string Value = "529a3eec63f762ca:TurnipShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "TreeSkillRootplant",
+			string Value = "529a3ef8652acdcc:RootShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "TreeSkillMushroom",
+			string Value = "529a3e07746645cf:MushroomShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "Cross",
+			string Value = "52964c3dd77de3da:cross",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillFire",
+			string Value = "528d0574804e2b02:FireShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillIce",
+			string Value = "528d050c8505ad5a:IceShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "InRange",
+			string Value = "5287b79f05969ae9:Cursor_InRange",
+			float Weight = 1,
+		},
+		{
+			string Name = "OutRange",
+			string Value = "5287b79a057c9151:Cursor_OutofRange",
+			float Weight = 1,
+		},
+		{
+			string Name = "Attack",
+			string Value = "5287b79402297431:Cursor_OnEnemy",
+			float Weight = 1,
+		},
+		{
+			string Name = "TreeSkillWorldtree",
+			string Value = "5287b79f05969ae9:Cursor_InRange",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

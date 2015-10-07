@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AIMovementInterface",
+		uint64 ResourceId = 5277c7062f66240b,
+	},
+},

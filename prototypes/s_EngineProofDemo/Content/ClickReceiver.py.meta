@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ClickReceiver",
+		uint64 ResourceId = 524e2bd093a865da,
+	},
+},

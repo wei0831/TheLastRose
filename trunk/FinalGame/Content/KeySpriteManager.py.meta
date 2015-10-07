@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "KeySpriteManager",
+		uint64 ResourceId = 5294246171010d98,
+	},
+},

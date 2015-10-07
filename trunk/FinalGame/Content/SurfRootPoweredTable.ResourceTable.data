@@ -1,0 +1,23 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Normal",
+			string Value = "526976a6d89d93dc:SnatchRoot_Plant",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillFire",
+			string Value = "5287bbfb964f2160:SnatchRoot_PlantFire",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillIce",
+			string Value = "5287bb8699cc8486:SnatchRoot_PlantIce",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

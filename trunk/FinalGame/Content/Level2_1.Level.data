@@ -1,0 +1,3567 @@
+Level = 
+{
+	LevelSettings = 
+	{
+		LinkId = 
+		{
+			uint Id = 1,
+		},
+		Named = 
+		{
+			string Name = "LevelSettings",
+		},
+		GravityEffect = 
+		{
+			bool Active = true,
+			bool WakeUpOnChange = false,
+			bool LocalSpaceDirection = true,
+			float Strength = 20,
+			Vec3 Direction = [0, -1, 0],
+		},
+		DragEffect = 
+		{
+			bool Active = false,
+			bool WakeUpOnChange = false,
+			float Drag = 0,
+		},
+		CameraViewport = 
+		{
+			bool Background = true,
+			Vec2 Offset = [0, 0],
+			Vec2 Size = [1, 1],
+			uint Layer = 0,
+			bool Active = true,
+			bool Blocking = true,
+			uint Renderer = 1,
+			uint Camera = 2,
+		},
+		ForwardRenderer = 
+		{
+			Vec4 ClearColor = [0.136425, 0.187412, 0.255, 1],
+		},
+		LevelStart = 
+		{
+			string HUDLevel = "5293bef8b0d73bca:HUDLevel",
+			uint HUDManager = 0,
+			string AbilityOverrideTable = "5285833d8c67e719:AbilityTimeOverrideTable",
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 2,
+		},
+		Named = 
+		{
+			string Name = "Camera",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-22.4692, -8.989, 40],
+			Vec3 Scale = [3.07003, 0.0849738, 3.07003],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Camera = 
+		{
+			ProjectionMode ProjectionMode = Orthographic,
+			Facing Facing = NegativeZ,
+			SpriteSort SpriteSort = ZDepth,
+			float FieldOfView = 45,
+			float NearPlane = 0.5,
+			float FarPlane = 200,
+			float Size = 7,
+		},
+		CameraLogic = 
+		{
+			float FollowSpeed = 0.075,
+			uint Tracker = 0,
+			uint MouseIndicator = 0,
+		},
+		CameraFunction = 
+		{
+			float FadeLayerDepthRelative = -5,
+			float OffsexY = 0,
+			bool FollowEnable = false,
+			uint FollowTarget = 0,
+			bool ChaseEnable = false,
+			uint ChaseTarget = 0,
+			uint FadeLayer = 0,
+			bool Forze = false,
+		},
+		LightLayer = 
+		{
+			float DefaultAlpha = 0.85,
+		},
+		Hierarchy = 
+		{
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 3,
+		},
+		Named = 
+		{
+			string Name = "MouseIndicator",
+		},
+		Archetyped = 
+		{
+			string Name = "5298aed8fca80d83:MouseIndicator",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-16.6035, -9.06344, 0],
+			Vec3 Scale = [0.2, 0.2, 0.2],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "5274db4c2e7c11f9:Circle",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 0.16],
+			bool Visible = true,
+			bool OnTop = true,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		MouseLocationIndicator = 
+		{
+			float Range = 2.3,
+			string ShadeTable = "529a214b6cc56f11:ShadeTable",
+			bool Deactivated = false,
+			float OverrideColliderSize = 1.23,
+			bool AbsorbActive = false,
+		},
+		SphereCollider = 
+		{
+			bool Ghost = true,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "5299478ebf6efd70:Mouse",
+			Vec3 Offset = [0, 0, 0],
+			float Radius = 1.2,
+		},
+		Region = 
+		{
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = true,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		BurnAnim = 
+		{
+			bool Active = false,
+			float Alpha = 0.13,
+			float Amplifier = 1,
+		},
+		FreezeAnim = 
+		{
+			bool Active = false,
+			float Alpha = 0.3,
+		},
+		PoisonAnim = 
+		{
+			bool Active = false,
+			float Alpha = 0.1,
+		},
+		Hierarchy = 
+		{
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 4,
+		},
+		Named = 
+		{
+			string Name = "BG1",
+		},
+		Archetyped = 
+		{
+			string Name = "52683f45ddc4871c:BG1",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-10.0024, 5.7261, 40.0001],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Parallax = 
+		{
+			float OffsetY = -7,
+			float ScaleX = 2,
+			float ScaleY = 2,
+			int Layer = -5,
+			string Image = "5266477cc3d83a2b:MountinBack_None_0",
+			uint Camera = 2,
+			uint Player = 5,
+			float ScrollX = 0.5,
+			float ScrollY = 0.2,
+			Vec4 Color = [0.333333, 0.262745, 0.00392157, 1],
+		},
+		Hierarchy = 
+		{
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 6,
+		},
+		Named = 
+		{
+			string Name = "BG2",
+		},
+		Archetyped = 
+		{
+			string Name = "52683f41dd4732d7:BG2",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-10.1893, 5.77282, 40.0001],
+			Vec3 Scale = [2, 2, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Parallax = 
+		{
+			float OffsetY = -5,
+			float ScaleX = 2,
+			float ScaleY = 2,
+			int Layer = -10,
+			string Image = "526646a903c08872:MountinBack_None_1.png",
+			uint Camera = 2,
+			uint Player = 5,
+			float ScrollX = 0.75,
+			float ScrollY = 0.4,
+			Vec4 Color = [0.121569, 0, 0, 1],
+		},
+		Hierarchy = 
+		{
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 7,
+		},
+		Named = 
+		{
+			string Name = "BG3",
+		},
+		Archetyped = 
+		{
+			string Name = "52683f4ddcd0ad3f:BG3",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-10.236, 5.93632, 40.0001],
+			Vec3 Scale = [2, 2, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Parallax = 
+		{
+			float OffsetY = -3,
+			float ScaleX = 2,
+			float ScaleY = 2,
+			int Layer = -15,
+			string Image = "5266469a3737a464:MountinBack_None_2.png",
+			uint Camera = 2,
+			uint Player = 5,
+			float ScrollX = 0.95,
+			float ScrollY = 0.6,
+			Vec4 Color = [0.211765, 0.192157, 0.0745098, 1],
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 8,
+		},
+		Named = 
+		{
+			string Name = "EditorCamera",
+		},
+		Archetyped = 
+		{
+			string Name = "4de020863e840530:EditorCamera",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-25.3431, -12.602, 7.00145],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, -0, -0, 1],
+		},
+		Camera = 
+		{
+			ProjectionMode ProjectionMode = Orthographic,
+			Facing Facing = NegativeZ,
+			SpriteSort SpriteSort = ViewDepth,
+			float FieldOfView = 45,
+			float NearPlane = 0.5,
+			float FarPlane = 500,
+			float Size = 19,
+		},
+		EditorCameraController = 
+		{
+			ControlMode ControlMode = ZPlane,
+			float LookDistance = 7,
+			float VerticalAngle = 0,
+			float HorizontalAngle = 0,
+			Vec3 LookTarget = [-25.3431, -12.602, 0.00144958],
+		},
+		EditorRenderer = 
+		{
+			Vec4 ClearColor = [0.278431, 0.278431, 0.278431, 1],
+		},
+		Hierarchy = 
+		{
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 5,
+		},
+		Named = 
+		{
+			string Name = "Player",
+		},
+		Archetyped = 
+		{
+			string Name = "5298aed0fda1c512:Player",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-39.0428, -12.1106, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "528ee003ed742274:SpriteRunSimpleTrans2",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = true,
+			bool Mode2D = true,
+			bool AllowSleep = false,
+			bool Inherit2DMode = false,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		PlayerController = 
+		{
+			float JumpStrength = 8,
+			float MoveForce = 0.5,
+			bool JumpActive = true,
+			float HorizontalSpeedLimit = 4,
+			float VerticalSpeedLimit = 20,
+			uint Mouse = 0,
+			float FallKillLimit = -60,
+			bool DontUpdateAnim = false,
+			string AnimTable = "52802c5a21121f6d:PlayerAnimTable",
+		},
+		Bounceable = 
+		{
+			float Decay = 1,
+			bool Active = true,
+		},
+		ActionList = 
+		{
+			bool Active = true,
+		},
+		AbilityStatus = 
+		{
+			float PlantTimeOverride = 0,
+		},
+		CanHook = 
+		{
+		},
+		CannotBeFrozen = 
+		{
+		},
+		KeyRing = 
+		{
+		},
+		CanTrigger = 
+		{
+			bool Active = true,
+		},
+		CanCollect = 
+		{
+		},
+		CanFancyDie = 
+		{
+			bool DeathActive = true,
+			float SoulMoveSpeed = 0.04,
+			float Delay_Die = 0.25,
+			float IncreaseSizeDelta = 0.025,
+			float MaxSize = 1.25,
+			float DecreaseSizeDelta = 0.05,
+			float MinSize = 0.01,
+			float IncreaseAlphaDelta = 0.03,
+		},
+		CanCheck = 
+		{
+		},
+		HealthStatus = 
+		{
+			float MaxHealth = 5,
+			float RegenRate = 5,
+			bool Updatable = true,
+			bool UseVisualCue = true,
+		},
+		BlinkAnim = 
+		{
+			Vec4 BlinkColor = [1, 0, 0, 1],
+			int BlinkTick = 5,
+			float Countdown = -1,
+			bool Active = false,
+		},
+		PlayerGravityModifier = 
+		{
+			bool Active = true,
+		},
+		SphereCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "52a8a1c753a702b3:fd",
+			string SerializedGroupName = "52673a709152e4ec:Player",
+			Vec3 Offset = [0, -0.05, 0],
+			float Radius = 0.17,
+		},
+		MassOverride = 
+		{
+			bool Active = true,
+			float invMass = 2,
+			Vec3 invInertiaX = [0, 0, 0],
+			Vec3 invInertiaY = [0, 0, 0],
+			Vec3 invInertiaZ = [0, 0, 0],
+			Vec3 LocalCenterOfMass = [0, 0, 0],
+		},
+		GotLight = 
+		{
+			uint Light = 0,
+			float Size = 0.225,
+		},
+		DoorEnterer = 
+		{
+		},
+		AlternateSoundEmitter = 
+		{
+			string SoundCue1 = "528d0e923a697226:WalkCue",
+			string SoundCue2 = "528d7207c0cc5796:WalkCue2",
+			bool Active = false,
+			float Duration = 0.25,
+			bool DynamicAdjustment = true,
+		},
+		Hierarchy = 
+		{
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 9,
+				},
+				Named = 
+				{
+					string Name = "Distance",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0, -0.001],
+					Vec3 Scale = [5.2, 5.2, 9.72698],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "5274db4c2e7c11f9:Circle",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.105],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Additive,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 10,
+		},
+		Named = 
+		{
+			string Name = "TileMap",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [0, 0, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		MultiSprite = 
+		{
+			Vec4 Color = [1, 1, 1, 1],
+			bool Visible = true,
+			BlendMode BlendMode = Alpha,
+		},
+		TileMap = 
+		{
+			string SourceName = "528a9d9ccc7eeefb:Level2_1_TileMap00",
+			float UnitsPerTile = 0.5,
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 11,
+		},
+		Named = 
+		{
+			string Name = "FireCow",
+		},
+		Archetyped = 
+		{
+			string Name = "52938cfd69179b51:FireCow",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.1166, -13.9058, 0.00926208],
+			Vec3 Scale = [1.2, 1.2, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "5281ce22514a8457:FireCowMWalking",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		AIMovementSentry = 
+		{
+			float Speed = 0.02,
+			Vec3 InitialDirection = [1, 0, 0],
+			bool Active = true,
+			bool RandomStop = true,
+			bool RandomFlip = true,
+		},
+		BoxCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "5299427515adebae:Monster",
+			Vec3 Offset = [-0.05, -0.05, 0],
+			Vec3 Size = [0.3, 0.2, 0.5],
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = true,
+			bool Mode2D = true,
+			bool AllowSleep = false,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		CanBurn = 
+		{
+			bool Active = true,
+		},
+		ClickReceiver = 
+		{
+			string GrantTreeAbility = "",
+			string GrantPhysAbility = "PhysSkillFire",
+			bool Receivable = true,
+		},
+		HealthStatus = 
+		{
+			float MaxHealth = 100,
+			float RegenRate = 0,
+			bool Updatable = true,
+			bool UseVisualCue = false,
+		},
+		GotLight = 
+		{
+			uint Light = 0,
+			float Size = 0.15,
+		},
+		Hierarchy = 
+		{
+			ArchetypeInstance = 
+			{
+				string Name = "52938aad93757f99:CircularPreventer",
+				LinkId = 
+				{
+					uint Id = 12,
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0.249573, -0.197119, -0.00832558],
+					Vec3 Scale = [0.15, 0.15, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Named = 
+				{
+					string Name = "CircularPreventer",
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 13,
+				},
+				Named = 
+				{
+					string Name = "CircularPreventer",
+				},
+				Archetyped = 
+				{
+					string Name = "52938aad93757f99:CircularPreventer",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.341533, -0.197119, -0.00832558],
+					Vec3 Scale = [0.15, 0.15, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				SphereCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+					Vec3 Offset = [0, 0, 0],
+					float Radius = 0.1,
+				},
+				Sprite = 
+				{
+					string SpriteSource = "5274db4c2e7c11f9:Circle",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 1],
+					bool Visible = false,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 14,
+		},
+		Named = 
+		{
+			string Name = "VineWall",
+		},
+		Archetyped = 
+		{
+			string Name = "529018db5165de78:VineWall",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-35.0511, -13.1892, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701083],
+		},
+		Hierarchy = 
+		{
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 15,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.00508057, -0.28334, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 16,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.651079, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 17,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.199463, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 18,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.15, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 19,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.64892, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 20,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.13924, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 21,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.62956, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 22,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.0533302, -0.75733, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, -0.997371, -0.0724604],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee7785f82cab1:Red_Vine_Corner",
+					bool FlipX = true,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 23,
+		},
+		Named = 
+		{
+			string Name = "RedDoor",
+		},
+		Archetyped = 
+		{
+			string Name = "5292cc9ee2e90d0c:RedDoor",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-19.792, -10.1525, 0],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "529ecccb3faa3485:Door_Blue",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		KeyHoleDoor = 
+		{
+			string KeyHole = "Blue",
+			string DoorTable = "529fd822ab039972:DoorTable",
+			string NextLevel = "52891344b76b8426:Level2_2",
+			uint Teleport = 0,
+			bool SimpleTeleport = false,
+			Vec4 TransitionColor = [1, 1, 1, 1],
+		},
+		BoxCollider = 
+		{
+			bool Ghost = true,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 0, 0],
+			Vec3 Size = [0.25, 0.25, 0.5],
+		},
+		Hierarchy = 
+		{
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 24,
+				},
+				Named = 
+				{
+					string Name = "DoorWord",
+				},
+				Archetyped = 
+				{
+					string Name = "529c6e786ef6adb8:Textbox",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.112562, 0.796565, -0.00218702],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				SpriteText = 
+				{
+					SpriteGeometryMode GeometryMode = ZPlane,
+					TextPositionMode Position = UpperLeft,
+					string FontName = "529c5a3dfb4792d6:04B_03__",
+					uint FontSize = 20,
+					Vec4 Color = [1, 1, 1, 1],
+					bool Visible = true,
+					string Text = "TextBox",
+					bool OnTop = true,
+					BlendMode BlendMode = Alpha,
+					Vec2 Size = [0, 0],
+					TextAlign Align = Left,
+					float PixelsPerUnit = 64,
+					bool Smoothing = true,
+				},
+				TypeScript = 
+				{
+					string String = "W",
+					float Delay = 0.015,
+					bool Active = true,
+					bool Repeat = false,
+					bool CollisionActivate = true,
+					int EmphasizeStart = -1,
+					int EmphasizeEnd = -1,
+					float DestroyDelay = 0,
+					bool Reactivatable = true,
+					Vec4 EmphasizerColor = [1, 0, 0, 1],
+					Vec4 BoxColor = [0.1, 0.1, 0.1, 0.9],
+					Vec4 WordColor = [1, 1, 1, 1],
+					bool CreateVisual = false,
+					Vec4 VisualCueColor = [0.675, 1, 0.67825, 0.9999],
+					int CharsPerLine = 0,
+					uint ActivateWhenTargetDestroyed = 23,
+					bool ImmediatePlayMessage = true,
+					uint DestroyWhenTargetDestroyed = 0,
+					bool ShouldBeRealDestroyed = false,
+				},
+				BoxCollider = 
+				{
+					bool Ghost = true,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+					Vec3 Offset = [0.1, -0.8, 0],
+					Vec3 Size = [0.25, 0.25, 0.5],
+				},
+			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 25,
+		},
+		Named = 
+		{
+			string Name = "RedKey",
+		},
+		Archetyped = 
+		{
+			string Name = "529429af01c5a1a3:KeyPrototype",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-35.1141, -12.0815, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "5292c4f7d105b263:Key_Grey",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		Key = 
+		{
+			string KeyValue = "Blue",
+		},
+		BoxCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "529676e217b29d78:Item",
+			Vec3 Offset = [0, 0, 0],
+			Vec3 Size = [0.225, 0.125, 0.5],
+		},
+		DestroyCreateArchetype = 
+		{
+			string Archetype = "526adb74986f6a52:GoldParticle",
+			float EffectLifeTime = 0,
+			float DieDelay = 0,
+			Vec3 Offset = [0, 0, 0],
+			Vec3 PositionOverride = [0, 0, 0],
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = false,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		Bounceable = 
+		{
+			float Decay = 0.9,
+			bool Active = true,
+		},
+		DestroyInterface = 
+		{
+		},
+		KeySpriteManager = 
+		{
+			string SpriteTable = "5292c4b1d95ebf66:KeyTable",
+			float ShineDelay = 1.7,
+		},
+		GottenAnim = 
+		{
+		},
+		GotLight = 
+		{
+			uint Light = 0,
+			float Size = 0.25,
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 26,
+		},
+		Named = 
+		{
+			string Name = "CheckPoint",
+		},
+		Archetyped = 
+		{
+			string Name = "526043759deb7523:CheckPoint",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-33.6115, -10.288, 0.00926208],
+			Vec3 Scale = [1.3, 1.3, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "52e5064aabcf247d:surfroot",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [0.365, 0.316236, 0.060225, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		BoxCollider = 
+		{
+			bool Ghost = true,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 1.25, 0],
+			Vec3 Size = [0.25, 1.5, 0.5],
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = true,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		Checkable = 
+		{
+			Vec4 DarkenedColor = [0.5, 0.5, 0.5, 1],
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 27,
+		},
+		Named = 
+		{
+			string Name = "CheckPoint",
+		},
+		Archetyped = 
+		{
+			string Name = "526043759deb7523:CheckPoint",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-37.0369, -14.182, 0.00926208],
+			Vec3 Scale = [1.3, 1.3, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "52e5064aabcf247d:surfroot",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [0.365, 0.316236, 0.060225, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		BoxCollider = 
+		{
+			bool Ghost = true,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+			Vec3 Offset = [0, 1.1, 0],
+			Vec3 Size = [0.25, 1.25, 0.5],
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = true,
+			bool RotationLocked = false,
+			bool Mode2D = true,
+			bool AllowSleep = true,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		Checkable = 
+		{
+			Vec4 DarkenedColor = [0.5, 0.5, 0.5, 1],
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "526043759deb7523:CheckPoint",
+		LinkId = 
+		{
+			uint Id = 28,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-26.2958, -10.2351, 0.00926208],
+			Vec3 Scale = [1.3, 1.3, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "CheckPoint",
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 29,
+		},
+		Named = 
+		{
+			string Name = "VineWall",
+		},
+		Archetyped = 
+		{
+			string Name = "529018db5165de78:VineWall",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-23.0081, -12.2432, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, -0.703734, 0.710464],
+		},
+		Hierarchy = 
+		{
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "526043db891c5368:DeathZone",
+		LinkId = 
+		{
+			uint Id = 30,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-23.8979, -10.7691, 0.00926208],
+			Vec3 Scale = [3.54691, 0.112194, 0.292889],
+			Quat Rotation = [0, 0, -0.0847456, 0.996403],
+		},
+		Named = 
+		{
+			string Name = "DeathZone",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "526043db891c5368:DeathZone",
+		LinkId = 
+		{
+			uint Id = 31,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.3236, -10.5365, 0.00926208],
+			Vec3 Scale = [0.653067, 0.166046, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "DeathZone",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "526043db891c5368:DeathZone",
+		LinkId = 
+		{
+			uint Id = 32,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.7639, -7.60502, 0.00926208],
+			Vec3 Scale = [1.76071, 0.166046, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "DeathZone",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "5294297e2d8dcf7c:CircularItemRack",
+		LinkId = 
+		{
+			uint Id = 33,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-34.9162, -12.3705, 0.00926208],
+			Vec3 Scale = [0.2, 0.2, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "CircularPreventer",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "5294297e2d8dcf7c:CircularItemRack",
+		LinkId = 
+		{
+			uint Id = 34,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-35.2509, -12.3566, 0.00926208],
+			Vec3 Scale = [0.2, 0.2, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "CircularPreventer",
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 35,
+		},
+		Named = 
+		{
+			string Name = "VineWall",
+		},
+		Archetyped = 
+		{
+			string Name = "529018db5165de78:VineWall",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-31.6564, -13.2449, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701083],
+		},
+		Hierarchy = 
+		{
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 36,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.00508057, -0.28334, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 37,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.651079, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 38,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.199463, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 39,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.15, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 40,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.64892, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 41,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.13924, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 42,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.62956, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 43,
+		},
+		Named = 
+		{
+			string Name = "VineWall",
+		},
+		Archetyped = 
+		{
+			string Name = "529018db5165de78:VineWall",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-28.2469, -13.3088, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701083],
+		},
+		Hierarchy = 
+		{
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 44,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.00508057, -0.28334, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 45,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.651079, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 46,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.199463, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 47,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.15, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 48,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.64892, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				BoxCollider = 
+				{
+					bool Ghost = false,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52a8b588de226691:Ground",
+					Vec3 Offset = [0, 0, 0],
+					Vec3 Size = [0.125, 0.3, 0.5],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				IsSentry = 
+				{
+					Vec3 SentryDirection = [0, 0, 0],
+				},
+				BurnableVine = 
+				{
+					float HurtRate = -80,
+					string CollisionToBe = "52a8b5d7d4d59709:InteractOnlyWithGround",
+					float PropagateDelay = 0.175,
+				},
+				RigidBody = 
+				{
+					bool Static = false,
+					bool Asleep = false,
+					bool Kinematic = true,
+					bool RotationLocked = false,
+					bool Mode2D = true,
+					bool AllowSleep = false,
+					bool Inherit2DMode = false,
+					Vec3 Velocity = [0, 0, 0],
+					Vec3 AngularVelocity = [0, 0, 0],
+				},
+			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 49,
+		},
+		Named = 
+		{
+			string Name = "BurnableVine",
+		},
+		Archetyped = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.2528, -10.498, 0.00926208],
+			Vec3 Scale = [0.999999, 0.999999, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701084],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "528ee29b96f61dc0:Red_vine",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 0.9999],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 50,
+		},
+		Named = 
+		{
+			string Name = "BurnableVine",
+		},
+		Archetyped = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-31.4568, -7.61849, 0.00926208],
+			Vec3 Scale = [0.999999, 0.999999, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701084],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "528ee29b96f61dc0:Red_vine",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 0.9999],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 51,
+		},
+		Named = 
+		{
+			string Name = "BurnableVine",
+		},
+		Archetyped = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.997, -7.61849, 0.00926208],
+			Vec3 Scale = [0.999999, 0.999999, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701084],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "528ee29b96f61dc0:Red_vine",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 0.9999],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 52,
+		},
+		Named = 
+		{
+			string Name = "BurnableVine",
+		},
+		Archetyped = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.5307, -7.61849, 0.00926208],
+			Vec3 Scale = [0.999999, 0.999999, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701084],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "528ee29b96f61dc0:Red_vine",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 0.9999],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 53,
+		},
+		Named = 
+		{
+			string Name = "BurnableVine",
+		},
+		Archetyped = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.0578, -7.61849, 0.00926208],
+			Vec3 Scale = [0.999999, 0.999999, 1],
+			Quat Rotation = [0, 0, -0.713079, 0.701084],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "528ee29b96f61dc0:Red_vine",
+			bool FlipX = false,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 0.9999],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 54,
+		},
+		Named = 
+		{
+			string Name = "DumbVineRed",
+		},
+		Archetyped = 
+		{
+			string Name = "529018db5165de78:VineWall",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-25.1458, -10.7783, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, -0.769141, 0.639079],
+		},
+		Hierarchy = 
+		{
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 55,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.00508057, -0.28334, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 56,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.651079, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 57,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.199463, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 58,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.15, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 59,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.64892, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 60,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.13924, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 61,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.62956, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 62,
+		},
+		Named = 
+		{
+			string Name = "DumbVineRed",
+		},
+		Archetyped = 
+		{
+			string Name = "529018db5165de78:VineWall",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-25.1983, -11.179, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, -0.685647, 0.727935],
+		},
+		Hierarchy = 
+		{
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 63,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.00508057, -0.28334, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 64,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.651079, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 65,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 0.199463, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 66,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.15, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 67,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 1.64892, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 68,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.13924, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 69,
+				},
+				Named = 
+				{
+					string Name = "BurnableVine",
+				},
+				Archetyped = 
+				{
+					string Name = "5296541ea8f62383:BurnableVineTile",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0, 2.62956, 0],
+					Vec3 Scale = [1, 1, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "528ee29b96f61dc0:Red_vine",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 0.9999],
+					bool Visible = true,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+			},
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "528eea1db7b3903e:DumbVineRed",
+		LinkId = 
+		{
+			uint Id = 70,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-25.1523, -11.9344, 0.00926208],
+			Vec3 Scale = [1, 1, 1],
+			Quat Rotation = [0, 0, -0.712154, 0.702024],
+		},
+		Named = 
+		{
+			string Name = "DumbVineRed",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "528d06c425d18c21:PlayerHelper",
+		LinkId = 
+		{
+			uint Id = 71,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-30.3208, -7.59687, 0.00144958],
+			Vec3 Scale = [1.25347, 0.463377, 1],
+			Quat Rotation = [0, 0, -0.128375, 0.991726],
+		},
+		Named = 
+		{
+			string Name = "PlayerHelper",
+		},
+	},
+	Cog = 
+	{
+		LinkId = 
+		{
+			uint Id = 72,
+		},
+		Named = 
+		{
+			string Name = "MushroomMonster",
+		},
+		Archetyped = 
+		{
+			string Name = "5260440d39d99a13:MushroomMonster",
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-35.4367, -13.9546, 0.00144958],
+			Vec3 Scale = [1.3, 1.3, 1],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Sprite = 
+		{
+			string SpriteSource = "52996d21cf9c93cf:MushroomMWalk",
+			bool FlipX = true,
+			bool FlipY = false,
+			Vec4 Color = [1, 1, 1, 1],
+			bool Visible = true,
+			bool OnTop = false,
+			bool AnimationActive = true,
+			float AnimationSpeed = 1,
+			uint StartFrame = 0,
+			BlendMode BlendMode = Alpha,
+			SpriteGeometryMode GeometryMode = ZPlane,
+		},
+		RigidBody = 
+		{
+			bool Static = false,
+			bool Asleep = false,
+			bool Kinematic = false,
+			bool RotationLocked = true,
+			bool Mode2D = true,
+			bool AllowSleep = false,
+			bool Inherit2DMode = true,
+			Vec3 Velocity = [0, 0, 0],
+			Vec3 AngularVelocity = [0, 0, 0],
+		},
+		HealthStatus = 
+		{
+			float MaxHealth = 50,
+			float RegenRate = 0,
+			bool Updatable = true,
+			bool UseVisualCue = false,
+		},
+		ClickReceiver = 
+		{
+			string GrantTreeAbility = "TreeSkillMushroom",
+			string GrantPhysAbility = "",
+			bool Receivable = true,
+		},
+		BoxCollider = 
+		{
+			bool Ghost = false,
+			bool SendsMessages = true,
+			bool Seamless = false,
+			string MaterialName = "4faa6050b8692851:HardMaterial",
+			string SerializedGroupName = "5299427515adebae:Monster",
+			Vec3 Offset = [0, 0, 0],
+			Vec3 Size = [0.35, 0.275, 0.5],
+		},
+		AIMovementCharging = 
+		{
+			float Speed = 0.05,
+			Vec3 InitialDirection = [1, 0, 0],
+			bool Active = true,
+			Vec3 DetectionBox = [7, 1, 1],
+			string AnimTable = "5299592052a4a290:MushroomM",
+		},
+		CanBounce = 
+		{
+			bool Active = false,
+			float ForcedVx = 0,
+			float ForcedVy = 10,
+			bool UpdateBasedOnSprite = true,
+			bool TopModify = false,
+		},
+		Bounceable = 
+		{
+			float Decay = 1,
+			bool Active = true,
+		},
+		Burnable = 
+		{
+			bool PropagateBurn = true,
+			float HurtRate = 0,
+			float Amplifier = 1,
+			float PropagateDelay = 0,
+		},
+		Hierarchy = 
+		{
+			ArchetypeInstance = 
+			{
+				string Name = "52938aad93757f99:CircularPreventer",
+				LinkId = 
+				{
+					uint Id = 73,
+				},
+				Transform = 
+				{
+					Vec3 Translation = [-0.347353, -0.275195, -4.76837e-007],
+					Vec3 Scale = [0.153846, 0.153846, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Named = 
+				{
+					string Name = "CircularPreventer",
+				},
+			},
+			Cog = 
+			{
+				LinkId = 
+				{
+					uint Id = 74,
+				},
+				Named = 
+				{
+					string Name = "InvisibleBouncer",
+				},
+				Transform = 
+				{
+					Vec3 Translation = [0.312304, 0.205913, 0.0120005],
+					Vec3 Scale = [0.230769, 0.230769, 1],
+					Quat Rotation = [0, 0, 0, 1],
+				},
+				Sprite = 
+				{
+					string SpriteSource = "5274db4c2e7c11f9:Circle",
+					bool FlipX = false,
+					bool FlipY = false,
+					Vec4 Color = [1, 1, 1, 1],
+					bool Visible = false,
+					bool OnTop = false,
+					bool AnimationActive = true,
+					float AnimationSpeed = 1,
+					uint StartFrame = 0,
+					BlendMode BlendMode = Alpha,
+					SpriteGeometryMode GeometryMode = ZPlane,
+				},
+				CanBounce = 
+				{
+					bool Active = true,
+					float ForcedVx = 2.5,
+					float ForcedVy = 2.5,
+					bool UpdateBasedOnSprite = false,
+					bool TopModify = false,
+				},
+				SphereCollider = 
+				{
+					bool Ghost = true,
+					bool SendsMessages = true,
+					bool Seamless = false,
+					string MaterialName = "4faa6050b8692851:HardMaterial",
+					string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+					Vec3 Offset = [0, 0, 0],
+					float Radius = 0.15,
+				},
+				FunBouncerManager = 
+				{
+				},
+			},
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "526ada287f32c5af:Gold",
+		LinkId = 
+		{
+			uint Id = 75,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-24.7585, -8.57068, 0.00144958],
+			Vec3 Scale = [0.192788, 0.192788, 0.192788],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Gold",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "526ada287f32c5af:Gold",
+		LinkId = 
+		{
+			uint Id = 76,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-23.8567, -8.33165, 0.00144958],
+			Vec3 Scale = [0.192788, 0.192788, 0.192788],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Gold",
+		},
+	},
+	ArchetypeInstance = 
+	{
+		string Name = "526ada287f32c5af:Gold",
+		LinkId = 
+		{
+			uint Id = 77,
+		},
+		Transform = 
+		{
+			Vec3 Translation = [-22.9715, -8.25127, 0.00144958],
+			Vec3 Scale = [0.192788, 0.192788, 0.192788],
+			Quat Rotation = [0, 0, 0, 1],
+		},
+		Named = 
+		{
+			string Name = "Gold",
+		},
+	},
+},

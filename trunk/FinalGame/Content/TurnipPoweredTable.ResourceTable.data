@@ -1,0 +1,23 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Normal",
+			string Value = "5269775702a8edde:Heliturnip_SpinFullAnimation",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillIce",
+			string Value = "5284f76a72127a21:Heliturnip_SpinFullAnimationIce3",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillFire",
+			string Value = "5284f623566b2e64:Heliturnip_SpinFullAnimationFire",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

@@ -1,0 +1,48 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Red",
+			string Value = "529fd791ff0220fa:Key_Red",
+			float Weight = 1,
+		},
+		{
+			string Name = "Green",
+			string Value = "529ed20c30d153db:Key_Green",
+			float Weight = 1,
+		},
+		{
+			string Name = "Blue",
+			string Value = "529eccda21b5be57:Key_Blue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Grey",
+			string Value = "5292c4f7d105b263:Key_Grey",
+			float Weight = 1,
+		},
+		{
+			string Name = "RedShine",
+			string Value = "5294254cae50f0b5:Key_Red_Shine",
+			float Weight = 1,
+		},
+		{
+			string Name = "GreenShine",
+			string Value = "5294229eab9ca77d:Key_Green_Shine",
+			float Weight = 1,
+		},
+		{
+			string Name = "GreyShine",
+			string Value = "529422b7ad7f8c8d:Key_Grey_Shine",
+			float Weight = 1,
+		},
+		{
+			string Name = "BlueShine",
+			string Value = "529422cda14a5bc7:Key_Blue_Shine",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

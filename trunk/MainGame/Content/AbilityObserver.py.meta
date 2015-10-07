@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AbilityObserver",
+		uint64 ResourceId = 5293842751e17a7e,
+	},
+},

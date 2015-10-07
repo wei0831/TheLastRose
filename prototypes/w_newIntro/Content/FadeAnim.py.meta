@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "FadeAnim",
+		uint64 ResourceId = 524e2b35ac6e4948,
+	},
+},

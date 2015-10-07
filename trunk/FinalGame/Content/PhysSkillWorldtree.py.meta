@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PhysSkillWorldtree",
+		uint64 ResourceId = 52847fa99673b4a1,
+	},
+},

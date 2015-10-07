@@ -1,0 +1,185 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Rootplant",
+	},
+	Archetyped = 
+	{
+		string Name = "52e5004bf460c1ad:Rootplant",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-32.5466, -10.9608, 0.00926208],
+		Vec3 Scale = [1, 1, 0.53402],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = false,
+		bool Mode2D = true,
+		bool AllowSleep = true,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "529fea0747925544:Plant",
+		Vec3 Offset = [0.006, 0, 0],
+		Vec3 Size = [0.15, 0.175, 0.01],
+	},
+	CanBeRooted = 
+	{
+		bool ShouldRoot = true,
+	},
+	GrowthAnim = 
+	{
+		string VerticalGrowthCurve = "524e04b798a23a39:GrowthVertical.SampleCurve",
+		string HorizontalGrowhCurve = "524e04b798a22714:GrowhHorizontal.SampleCurve",
+		bool Active = true,
+		float Duration = 0.5,
+		bool Reverse = false,
+		bool Repeat = false,
+		float Scaling = 2,
+	},
+	DuplicateDestroy = 
+	{
+		string Code = "",
+		bool Active = true,
+	},
+	DestroyPlayAnim = 
+	{
+		bool InvalidateCollider = true,
+	},
+	DestroyInterface = 
+	{
+	},
+	TimedDeath = 
+	{
+		float LifeTime = 20,
+		bool Active = true,
+		bool DestroyAtTheEnd = true,
+	},
+	TransferEffectToChild = 
+	{
+		string ChildName = "Root",
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "surfroot",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-0.00317066, 0.188792, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "526976a6d89d93dc:SnatchRoot_Plant",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = true,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b5d7d4d59709:InteractOnlyWithGround",
+				Vec3 Offset = [0, -0.2, 0],
+				Vec3 Size = [0.25, 0.01, 0.5],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 3,
+			},
+			Named = 
+			{
+				string Name = "Root",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.0124874, -0.69381, 0],
+				Vec3 Scale = [1, 1.2622, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "52e505815acb33c1:root",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			CanTeleport = 
+			{
+				bool Active = false,
+				float Offset = 2,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = true,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "529fea0747925544:Plant",
+				Vec3 Offset = [0, -0.25, 0],
+				Vec3 Size = [0.1, 0.25, 0.5],
+			},
+			CanTrigger = 
+			{
+				bool Active = false,
+			},
+			RigidBody = 
+			{
+				bool Static = false,
+				bool Asleep = false,
+				bool Kinematic = true,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = true,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+	},
+},

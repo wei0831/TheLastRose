@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CloudGenerator",
+		uint64 ResourceId = 526e7594c9aa4332,
+	},
+},

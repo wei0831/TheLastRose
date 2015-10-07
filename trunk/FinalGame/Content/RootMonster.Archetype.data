@@ -1,0 +1,150 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "RootMonster",
+	},
+	Archetyped = 
+	{
+		string Name = "5260474d2f0e1498:RootMonster",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0.669839, 20.5374, 0.00927544],
+		Vec3 Scale = [1.5, 1.5, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5298bd6738f1a44e:RootMUnder",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 0.8,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	HealthStatus = 
+	{
+		float MaxHealth = 35,
+		float RegenRate = 0,
+		bool Updatable = true,
+		bool UseVisualCue = false,
+	},
+	ClickReceiver = 
+	{
+		string GrantTreeAbility = "TreeSkillRootplant",
+		string GrantPhysAbility = "",
+		bool Receivable = true,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "5299427515adebae:Monster",
+		Vec3 Offset = [0, 0.2, 0],
+		Vec3 Size = [0.125, 0.1, 0.5],
+	},
+	AIMovementUnderground = 
+	{
+		float Speed = 0.1,
+		Vec3 InitialDirection = [1, 0, 0],
+		bool Active = true,
+		Vec3 DetectionBox = [1.5, 1.8, 1],
+		string AnimTable = "5298b792da54b533:RootM",
+	},
+	Teleportable = 
+	{
+		bool Active = true,
+		float TeleportDelay = 0.5,
+	},
+	Bounceable = 
+	{
+		float Decay = 1,
+		bool Active = true,
+	},
+	SoundEmitter = 
+	{
+		bool StartPlaying = false,
+		int ExtraPriority = 0,
+		string CueName = "4e1bd44008b4dc2a:DefaultCue",
+		float Volume = 1,
+		float Pitch = 1,
+		bool Positional = true,
+	},
+	CreateSpawnerAtInit = 
+	{
+		uint Teleporter = 0,
+		float Delay = 15,
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "CircularPreventer",
+			},
+			Archetyped = 
+			{
+				string Name = "52938aad93757f99:CircularPreventer",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-0.00266428, 0.098709, 0],
+				Vec3 Scale = [0.0666667, 0.0666667, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			SphereCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b5d7d4d59709:InteractOnlyWithGround",
+				Vec3 Offset = [0, 0, 0],
+				float Radius = 0.15,
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5274db4c2e7c11f9:Circle",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = false,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+		},
+	},
+},

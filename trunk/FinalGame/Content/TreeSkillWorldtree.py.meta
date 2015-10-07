@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TreeSkillWorldtree",
+		uint64 ResourceId = 52847f2da9d65340,
+	},
+},

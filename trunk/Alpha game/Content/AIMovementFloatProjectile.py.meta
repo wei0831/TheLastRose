@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AIMovementFloatProjectile",
+		uint64 ResourceId = 5299278330316dc5,
+	},
+},

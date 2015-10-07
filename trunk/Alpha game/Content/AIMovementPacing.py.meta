@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AIMovementPacing",
+		uint64 ResourceId = 524d80a76b7719ea,
+	},
+},

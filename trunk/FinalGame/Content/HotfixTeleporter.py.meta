@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "HotfixTeleporter",
+		uint64 ResourceId = 52791bfb464bedef,
+	},
+},

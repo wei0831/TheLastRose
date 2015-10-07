@@ -1,0 +1,81 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "MushroomMonster",
+	},
+	Archetyped = 
+	{
+		string Name = "5260474d2f0e1498:RootMonster",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-13.8692, 0.222735, 0],
+		Vec3 Scale = [1.7, 1.7, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5298bd6738f1a44e:RootMUnder",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 0.8,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = false,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	HealthStatus = 
+	{
+		float MaxHealth = 100,
+		float RegenRate = 0,
+	},
+	ClickReceiver = 
+	{
+		string GrantTreeAbility = "TreeSkillRootplant",
+		string GrantPhysAbility = "",
+		bool Receivable = true,
+	},
+	CreateSpawnerAtInit = 
+	{
+		uint Teleporter = 0,
+		float Delay = 5,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "5299427515adebae:InteractWithGroundAndPlayer",
+		Vec3 Offset = [0, 0.125, 0],
+		Vec3 Size = [0.125, 0.125, 0.5],
+	},
+	AIMovementUnderground = 
+	{
+		float Speed = 0.1,
+		Vec3 InitialDirection = [1, 0, 0],
+		bool Active = true,
+		Vec3 DetectionBox = [1.5, 1.8, 1],
+		string AnimTable = "5298b792da54b533:RootM",
+	},
+},

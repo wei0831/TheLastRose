@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "DestroyTeleport",
+		uint64 ResourceId = 52696379acf0d2f4,
+	},
+},

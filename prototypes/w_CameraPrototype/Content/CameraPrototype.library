@@ -1,0 +1,18 @@
+ContentLibrary = 
+{
+	string Name = "CameraPrototype",
+	Array Files = 
+	[
+		"CameraFunction.py",
+		"Game.data",
+		"Level.data",
+		"Monster.SpriteSource.png",
+		"Monster.png",
+		"MonsterMovement.py",
+		"Space.data",
+		"Trigger.py",
+	],
+	uint64 LibraryId = 5281981f859e2ff7,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

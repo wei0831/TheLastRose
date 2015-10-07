@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "MountinBack_None_1.png",
+		uint64 ResourceId = 526646a903c08872,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 512,
+		uint FrameSizeY = 512,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333,
+		float OriginX = 256,
+		float OriginY = 256,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},

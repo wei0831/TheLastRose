@@ -1,0 +1,21 @@
+ContentLibrary = 
+{
+	string Name = "Particle1",
+	Array Files = 
+	[
+		"FireCloud.png",
+		"Game.data",
+		"Level.data",
+		"Smoke2.png",
+		"SoulBehavior.py",
+		"SoulEffect.Archetype.data",
+		"SoulHitEffect.Archetype.data",
+		"SoulRelease.py",
+		"Space.data",
+		"TimeDelayDeath.py",
+		"Twinkle.png",
+	],
+	uint64 LibraryId = 528fd15e2caf4a34,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

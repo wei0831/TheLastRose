@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CreateSpawnerAtInit",
+		uint64 ResourceId = 52696897cfd36745,
+	},
+},

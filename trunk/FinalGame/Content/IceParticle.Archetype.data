@@ -1,0 +1,72 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "IceParticle",
+	},
+	Archetyped = 
+	{
+		string Name = "52a76003860d2008:IceParticle",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, 0, 0],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SpriteParticleSystem = 
+	{
+		SystemChildMode ChildMode = Independent,
+		SystemSpace SystemSpace = WorldSpace,
+		uint DrawOrder = 0,
+		ParticleGeometry GeometryMode = Billboarded,
+		ParticleRenderMode RenderMode = Additive,
+		ParticleSortMode SortMode = None,
+		string Texture = "528fd3a3eb7cf1e4:Twinkle",
+		Vec4 Tint = [0.44, 0.9496, 1, 0.455],
+		float VelocityScale = 1,
+		float LengthScale = 0,
+		float MaxParticleSize = 100,
+		Vec3 SystemSize = [5, 5, 5],
+	},
+	LinearParticleAnimator = 
+	{
+		Vec3 Force = [0, 0, 0],
+		Vec3 RandomForce = [0, 0, 0],
+		float Torque = 0.5,
+		float Growth = -0.3,
+		float Dampening = 1,
+		Vec3 Twist = [0, 0, 0],
+	},
+	SphericalParticleEmitter = 
+	{
+		bool Active = true,
+		uint EmitCount = 0,
+		float EmitRate = 10,
+		float EmitVariance = 0,
+		float Size = 0.35,
+		float SizeVariance = 0,
+		float Lifetime = 1,
+		float LifetimeVariance = 0,
+		float Spin = 0,
+		float SpinVariance = 300,
+		bool RandomSpin = true,
+		float Fill = 0,
+		float EmitterVelocityPercent = 0,
+		Vec3 StartVelocity = [0, 0, 0],
+		Vec3 RandomVelocity = [0, 0, 0],
+		Vec3 TangentVelocity = [0, 0, 0],
+		Vec3 EmitterSize = [0.75, 0.75, 0],
+		bool FastMovingEmitter = false,
+	},
+	TimedDeath = 
+	{
+		float LifeTime = 1,
+		bool Active = false,
+		bool DestroyAtTheEnd = true,
+	},
+},

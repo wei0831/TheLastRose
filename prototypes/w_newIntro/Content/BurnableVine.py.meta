@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "BurnableVine",
+		uint64 ResourceId = 526ad3a361c5ba79,
+	},
+},

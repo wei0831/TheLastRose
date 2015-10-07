@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "DeathEvent",
+		uint64 ResourceId = 526927389a9bdac6,
+	},
+},

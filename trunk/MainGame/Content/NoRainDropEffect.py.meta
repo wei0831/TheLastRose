@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "NoRainDropEffect",
+		uint64 ResourceId = 5297acad4230ec96,
+	},
+},

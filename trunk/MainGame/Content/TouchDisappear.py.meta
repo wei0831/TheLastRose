@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TouchDisappear",
+		uint64 ResourceId = 528aefa6911f995b,
+	},
+},

@@ -1,0 +1,106 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "MushroomMonster",
+	},
+	Archetyped = 
+	{
+		string Name = "529ec27f6b54b473:TurnipBoss",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-8.88502, -11.4891, 0],
+		Vec3 Scale = [4.27852, 4.27852, 2.85235],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "52996a88dd1cdf10:TurnipMMove",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [0.470787, 1, 0.46, 0.9999],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = false,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	HealthStatus = 
+	{
+		float MaxHealth = 100,
+		float RegenRate = 0,
+		bool Updatable = true,
+	},
+	ClickReceiver = 
+	{
+		string GrantTreeAbility = "TreeSkillWhirlingnut",
+		string GrantPhysAbility = "",
+		bool Receivable = true,
+	},
+	AIMovementSentry = 
+	{
+		float Speed = 0.05,
+		Vec3 InitialDirection = [1, 0, 0],
+		bool Active = false,
+		bool RandomStop = true,
+		bool RandomFlip = true,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "5299427515adebae:InteractWithGroundAndPlayer",
+		Vec3 Offset = [0, 0, 0],
+		Vec3 Size = [0.2, 0.2, 0.5],
+	},
+	AIMovementFloatProjectile = 
+	{
+		float Speed = 0.05,
+		Vec3 InitialDirection = [1, 0, 0],
+		bool Active = true,
+		Vec3 DetectionBox = [7, 7, 1],
+		string AnimTable = "529946f29b879899:TurnipM",
+		float BulletSize = 1,
+		float BulletSpeed = 1,
+		int AttackTimes = 1,
+		int AttackDelay = 90,
+		string BulletName = "TurnipMonster",
+	},
+	CanHurt = 
+	{
+		float HurtRate = -5,
+		bool Active = true,
+	},
+	Burnable = 
+	{
+		bool PropagateBurn = true,
+		float HurtRate = -10,
+	},
+	DestroyCreateArchetype = 
+	{
+		string Archetype = "529ec3e778e9b0b0:Green_Key",
+		float EffectLifeTime = 0,
+		float DieDelay = 0,
+	},
+},

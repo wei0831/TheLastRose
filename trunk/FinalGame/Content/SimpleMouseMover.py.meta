@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SimpleMouseMover",
+		uint64 ResourceId = 528e22e11c4ff079,
+	},
+},

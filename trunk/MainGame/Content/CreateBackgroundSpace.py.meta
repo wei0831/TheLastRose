@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CreateBackgroundSpace",
+		uint64 ResourceId = 5297b14ac80e326c,
+	},
+},

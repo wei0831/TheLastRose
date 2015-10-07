@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanSpawnWind",
+		uint64 ResourceId = 5280fb555644576f,
+	},
+},

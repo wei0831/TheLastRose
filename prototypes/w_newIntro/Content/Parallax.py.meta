@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Parallax",
+		uint64 ResourceId = 52683cfed2435bde,
+	},
+},

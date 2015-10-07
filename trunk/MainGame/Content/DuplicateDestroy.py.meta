@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "DuplicateDestroy",
+		uint64 ResourceId = 5277e08750d65659,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanBounce",
+		uint64 ResourceId = 528ee2288dc490a4,
+	},
+},

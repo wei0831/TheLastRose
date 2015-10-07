@@ -1,0 +1,14 @@
+ContentLibrary = 
+{
+	string Name = "VisualTest",
+	Array Files = 
+	[
+		"Block.Archetype.data",
+		"Game.data",
+		"Level.data",
+		"Space.data",
+	],
+	uint64 LibraryId = 52b2375f093bac34,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

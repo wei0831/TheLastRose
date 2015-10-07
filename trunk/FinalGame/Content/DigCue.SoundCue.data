@@ -1,0 +1,20 @@
+SoundCue = 
+{
+	PlayMode PlayMode = Single,
+	float Volume = 0.67,
+	float VolumeVariation = 0.09,
+	float Pitch = 0.7,
+	float PitchVariation = 0.3,
+	float MinDistance = 1,
+	float MaxDistance = 13,
+	float PositionRandomization = 0,
+	uint MaxPlaybacks = 10,
+	int Priority = 128,
+	Array Sounds = 
+	[
+		{
+			string SoundName = "528285e86e7ceb86:Monster Digging",
+			float Weight = 1,
+		},
+	],
+},

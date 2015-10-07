@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanTransferAbility",
+		uint64 ResourceId = 52765a1f1eda8ab2,
+	},
+},

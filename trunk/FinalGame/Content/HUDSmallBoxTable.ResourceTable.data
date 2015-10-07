@@ -1,0 +1,28 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "PhysSkillIce",
+			string Value = "5293942034dda174:pbox_ice",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillFire",
+			string Value = "5293941935f1ecf3:pbox_fire",
+			float Weight = 1,
+		},
+		{
+			string Name = "",
+			string Value = "5293943437019f19:pbox_small",
+			float Weight = 1,
+		},
+		{
+			string Name = "PhysSkillWorldtree",
+			string Value = "5284605b5922f220:PowerBox_Secondary_Worldtree",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

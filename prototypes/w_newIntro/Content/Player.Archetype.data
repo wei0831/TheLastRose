@@ -1,0 +1,163 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Player",
+	},
+	Archetyped = 
+	{
+		string Name = "5298aed0fda1c512:Player",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-12.6752, 0.719974, 0.0093248],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "528ee003ed742274:SpriteRunSimpleTrans2",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = false,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	PlayerController = 
+	{
+		float JumpStrength = 8,
+		float MoveForce = 0.5,
+		bool JumpActive = true,
+		float HorizontalSpeedLimit = 4,
+		uint Mouse = 0,
+	},
+	Bounceable = 
+	{
+	},
+	ActionList = 
+	{
+		bool Active = true,
+	},
+	AbilityStatus = 
+	{
+	},
+	CanHook = 
+	{
+	},
+	CannotBeFrozen = 
+	{
+	},
+	KeyRing = 
+	{
+	},
+	CanTrigger = 
+	{
+	},
+	CanCollect = 
+	{
+	},
+	CanFancyDie = 
+	{
+		bool DeathActive = true,
+		float SoulMoveSpeed = 0.04,
+		float Delay_Die = 0.25,
+		float IncreaseSizeDelta = 0.025,
+		float MaxSize = 1.25,
+		float DecreaseSizeDelta = 0.05,
+		float MinSize = 0.01,
+		float IncreaseAlphaDelta = 0.03,
+	},
+	CanCheck = 
+	{
+	},
+	HealthStatus = 
+	{
+		float MaxHealth = 5,
+		float RegenRate = 5,
+	},
+	BlinkAnim = 
+	{
+		Vec4 BlinkColor = [1, 0, 0, 1],
+		int BlinkTick = 5,
+		float Countdown = -1,
+		bool Active = false,
+	},
+	PlayerGravityModifier = 
+	{
+		bool Active = true,
+	},
+	SphereCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "52a8a1c753a702b3:fd",
+		string SerializedGroupName = "52673a709152e4ec:Player",
+		Vec3 Offset = [0, -0.05, 0],
+		float Radius = 0.17,
+	},
+	MassOverride = 
+	{
+		bool Active = true,
+		float invMass = 2,
+		Vec3 invInertiaX = [0, 0, 0],
+		Vec3 invInertiaY = [0, 0, 0],
+		Vec3 invInertiaZ = [0, 0, 0],
+		Vec3 LocalCenterOfMass = [0, 0, 0],
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "Distance",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0, -0.001],
+				Vec3 Scale = [4.5, 4.5, 9.72698],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5274db4c2e7c11f9:Circle",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 0.105],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Additive,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+		},
+	},
+},

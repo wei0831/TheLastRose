@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanBurn",
+		uint64 ResourceId = 524d491e59ffc1cb,
+	},
+},

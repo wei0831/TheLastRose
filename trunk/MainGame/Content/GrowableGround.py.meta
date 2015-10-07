@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GrowableGround",
+		uint64 ResourceId = 52a8bee1d7283539,
+	},
+},

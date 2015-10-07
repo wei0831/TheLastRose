@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PenetrablePlatform",
+		uint64 ResourceId = 5292d519ec7afd56,
+	},
+},

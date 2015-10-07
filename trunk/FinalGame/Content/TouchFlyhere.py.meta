@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TouchFlyhere",
+		uint64 ResourceId = 5284ded7a3f06050,
+	},
+},

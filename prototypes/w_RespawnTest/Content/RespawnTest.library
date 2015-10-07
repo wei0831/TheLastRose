@@ -1,0 +1,26 @@
+ContentLibrary = 
+{
+	string Name = "RespawnTest",
+	Array Files = 
+	[
+		"AIMovementPacing.py",
+		"CameraFunction.py",
+		"CanDie.py",
+		"DeathEvent.py",
+		"FireCloud.png",
+		"Game.data",
+		"Level.data",
+		"Level_TileMap00.TileMapSource.bin",
+		"ParticleImage.png",
+		"Player.SpriteSource.png",
+		"PlayerController.py",
+		"RespawnSoul.Archetype.data",
+		"Smoke2.png",
+		"Space.data",
+		"cow.SpriteSource.png",
+		"cow_0.SpriteSource.png",
+	],
+	uint64 LibraryId = 52b6567e1705ec1b,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

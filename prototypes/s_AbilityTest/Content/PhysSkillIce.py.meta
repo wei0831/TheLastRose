@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PhysSkillIce",
+		uint64 ResourceId = 524f537111e33971,
+	},
+},

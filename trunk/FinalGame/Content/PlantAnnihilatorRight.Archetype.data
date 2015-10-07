@@ -1,0 +1,38 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "PlantAnnihilator",
+	},
+	Archetyped = 
+	{
+		string Name = "529efc43db4c9d94:PlantAnnihilatorRight",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-2.31991, -15.764, 0.00832462],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	PlantAnnihilator = 
+	{
+	},
+	MeshCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "52a8b588de226691:Ground",
+		Vec3 Offset = [0, 0, 0],
+		string PhysicsMeshName = "4ee13192dc049505:Cube",
+	},
+	IsSentry = 
+	{
+		Vec3 SentryDirection = [1, 0, 0],
+	},
+},

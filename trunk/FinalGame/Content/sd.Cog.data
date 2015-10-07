@@ -1,0 +1,215 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Whirlingnut",
+	},
+	Archetyped = 
+	{
+		string Name = "52e531fb3fb8de5e:sd",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-4.10743, -25.2701, 0.00926208],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = false,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	GrowthAnim = 
+	{
+		string VerticalGrowthCurve = "524e04b798a23a39:GrowthVertical.SampleCurve",
+		string HorizontalGrowhCurve = "524e04b798a22714:GrowhHorizontal.SampleCurve",
+		bool Active = true,
+		float Duration = 0.3,
+		bool Reverse = false,
+		bool Repeat = false,
+		float Scaling = 1,
+	},
+	GravityEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = false,
+		bool LocalSpaceDirection = false,
+		float Strength = 22.6,
+		Vec3 Direction = [0, 1, 0],
+	},
+	WindEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = false,
+		float WindSpeed = 0,
+		Vec3 WindDirection = [0, -1, 0],
+		bool WanderSpeed = true,
+		float SpeedWanderVariance = 2,
+		float MinWindSpeed = 0,
+		float MaxWindSpeed = 3.8,
+	},
+	DragEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = false,
+		float Drag = 0.7,
+	},
+	Teleportable = 
+	{
+		bool Active = true,
+		float TeleportDelay = 0.5,
+	},
+	Blowable = 
+	{
+		bool Active = true,
+		float Decay = 0.1,
+	},
+	CanBeRooted = 
+	{
+		bool ShouldRoot = false,
+	},
+	DuplicateDestroy = 
+	{
+		string Code = "",
+		bool Active = true,
+	},
+	DestroyPlayAnim = 
+	{
+		bool InvalidateCollider = true,
+	},
+	DestroyInterface = 
+	{
+	},
+	SphereCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "529fea0747925544:Plant",
+		Vec3 Offset = [0, -0.02, 0],
+		float Radius = 0.31,
+	},
+	TimedDeath = 
+	{
+		float LifeTime = 20,
+		bool Active = true,
+		bool DestroyAtTheEnd = true,
+	},
+	Hookable = 
+	{
+		bool Active = false,
+		bool NonActivatable = false,
+	},
+	MassOverride = 
+	{
+		bool Active = true,
+		float invMass = 1.86842,
+		Vec3 invInertiaX = [0, 0, 0],
+		Vec3 invInertiaY = [0, 0, 0],
+		Vec3 invInertiaZ = [0, 0, 0],
+		Vec3 LocalCenterOfMass = [0, 0, 0],
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "Whirlingnut",
+			},
+			Archetyped = 
+			{
+				string Name = "4faa6050b86884ec:DefaultArchetype",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0, 0],
+				Vec3 Scale = [2, 2, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5269775702a8edde:Heliturnip_SpinFullAnimation",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 3,
+			},
+			Named = 
+			{
+				string Name = "Preventer",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-0.0129023, 0.239196, 0],
+				Vec3 Scale = [0.69194, 0.267102, 0.907429],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5275aa4d802dd6dc:Square",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [0.29, 0.22765, 0.22765, 1],
+				bool Visible = false,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Additive,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+			SphereCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+				Vec3 Offset = [0, 0, 0],
+				float Radius = 0.36,
+			},
+		},
+	},
+},

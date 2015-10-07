@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "Monster",
+		uint64 ResourceId = 5280981d09e91590,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 135,
+		uint FrameSizeY = 135,
+		uint FrameCount = 5,
+		float FrameDelay = 0.1,
+		float OriginX = 67,
+		float OriginY = 67,
+		float PixelsPerUnit = 64,
+		bool Smoothing = true,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},

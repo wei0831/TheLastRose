@@ -1,0 +1,16 @@
+ContentLibrary = 
+{
+	string Name = "SaveTest",
+	Array Files = 
+	[
+		"Game.data",
+		"Level.data",
+		"PlayerController.py",
+		"PrintMyPosition.py",
+		"SaveMyGame.py",
+		"Space.data",
+	],
+	uint64 LibraryId = 5292a452a7395f5d,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

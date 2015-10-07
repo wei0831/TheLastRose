@@ -1,0 +1,79 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Gold",
+	},
+	Archetyped = 
+	{
+		string Name = "526ada287f32c5af:Gold",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [9.91613, 5.08611, 0],
+		Vec3 Scale = [0.192788, 0.192788, 0.192788],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SpriteParticleSystem = 
+	{
+		SystemChildMode ChildMode = Independent,
+		SystemSpace SystemSpace = WorldSpace,
+		uint DrawOrder = 0,
+		ParticleGeometry GeometryMode = Billboarded,
+		ParticleRenderMode RenderMode = Additive,
+		ParticleSortMode SortMode = None,
+		string Texture = "528fd3a3eb7cf1e4:Twinkle",
+		Vec4 Tint = [0.585778, 0.595, 0.133875, 1],
+		float VelocityScale = 1,
+		float LengthScale = 0,
+		float MaxParticleSize = 100,
+		Vec3 SystemSize = [5, 5, 5],
+	},
+	LinearParticleAnimator = 
+	{
+		Vec3 Force = [0, 0, 0],
+		Vec3 RandomForce = [0, 0, 0],
+		float Torque = 1,
+		float Growth = -1,
+		float Dampening = 0.5,
+		Vec3 Twist = [0, 0, 0],
+	},
+	SphericalParticleEmitter = 
+	{
+		bool Active = true,
+		uint EmitCount = 0,
+		float EmitRate = 10,
+		float EmitVariance = 0,
+		float Size = 1,
+		float SizeVariance = 0,
+		float Lifetime = 1,
+		float LifetimeVariance = 0,
+		float Spin = 300,
+		float SpinVariance = 0,
+		bool RandomSpin = true,
+		float Fill = 0,
+		float EmitterVelocityPercent = 0,
+		Vec3 StartVelocity = [0, 0, 0],
+		Vec3 RandomVelocity = [0.5, 1.5, 1.5],
+		Vec3 TangentVelocity = [0, 0, 0],
+		Vec3 EmitterSize = [0.3, 0.3, 0],
+		bool FastMovingEmitter = false,
+	},
+	Collectible = 
+	{
+	},
+	SphereCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+		Vec3 Offset = [0, 0, 0],
+		float Radius = 1,
+	},
+},

@@ -1,0 +1,82 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "BasicEnemy",
+	},
+	Archetyped = 
+	{
+		string Name = "5274d0312c0253ba:BasicEnemy",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-9.47316, -4.7089, 0],
+		Vec3 Scale = [2, 2, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5274d06a24fd3f4e:EnemyBase",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [0.675, 0.131625, 0.131625, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = true,
+		bool AllowSleep = true,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+		Vec3 Offset = [0, 0, 0],
+		Vec3 Size = [0.5, 0.375, 0.5],
+	},
+	Bounceable = 
+	{
+	},
+	HealthStatus = 
+	{
+		float MaxHealth = 100,
+	},
+	Burnable = 
+	{
+		bool PropagateBurn = true,
+	},
+	ClickReceiver = 
+	{
+		string GrantTreeAbility = "",
+		string GrantPhysAbility = "",
+	},
+	AIMovementSentry = 
+	{
+		float Speed = 0.05,
+		Vec3 InitialDirection = [1, 0, 0],
+		bool Active = true,
+	},
+	AIMovementInterface = 
+	{
+	},
+},

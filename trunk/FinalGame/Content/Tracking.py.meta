@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Tracking",
+		uint64 ResourceId = 524cbd2a0cf0c418,
+	},
+},

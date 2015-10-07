@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "DestroyAtCollision",
+		uint64 ResourceId = 52992d04954e1bda,
+	},
+},

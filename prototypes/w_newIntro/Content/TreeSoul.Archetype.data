@@ -1,0 +1,163 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "TreeSoul",
+	},
+	Archetyped = 
+	{
+		string Name = "5268255c10018a61:TreeSoul",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [14.4442, 4.54212, 0],
+		Vec3 Scale = [0.75, 0.75, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SpriteParticleSystem = 
+	{
+		SystemChildMode ChildMode = Independent,
+		SystemSpace SystemSpace = WorldSpace,
+		uint DrawOrder = 0,
+		ParticleGeometry GeometryMode = FaceVelocity,
+		ParticleRenderMode RenderMode = Additive,
+		ParticleSortMode SortMode = Sorted,
+		string Texture = "4fab71e8bcb7a8ce:DefaultTexture",
+		Vec4 Tint = [0.14, 1, 0.9226, 1],
+		float VelocityScale = 2,
+		float LengthScale = 0,
+		float MaxParticleSize = 100,
+		Vec3 SystemSize = [1, 1, 1],
+	},
+	SphericalParticleEmitter = 
+	{
+		bool Active = false,
+		uint EmitCount = 0,
+		float EmitRate = 75,
+		float EmitVariance = 0,
+		float Size = 0.3,
+		float SizeVariance = 0,
+		float Lifetime = 0.75,
+		float LifetimeVariance = 0,
+		float Spin = 0,
+		float SpinVariance = 0,
+		bool RandomSpin = false,
+		float Fill = 1,
+		float EmitterVelocityPercent = 0,
+		Vec3 StartVelocity = [0, 0, 0],
+		Vec3 RandomVelocity = [0, 0, 0],
+		Vec3 TangentVelocity = [0, 0, 3],
+		Vec3 EmitterSize = [1, 1, 1],
+		bool FastMovingEmitter = false,
+	},
+	LinearParticleAnimator = 
+	{
+		Vec3 Force = [0, 0, 0],
+		Vec3 RandomForce = [0, 0, 0],
+		float Torque = 0,
+		float Growth = 0,
+		float Dampening = 0,
+		Vec3 Twist = [0, 0, 0],
+	},
+	ParticleAttractor = 
+	{
+		float Strength = 8,
+		float MinDistance = 2,
+		float MaxDistance = 10,
+	},
+	ParticleGradientAnimator = 
+	{
+		string ColorGradientName = "50a5ee1707f0fb60:DefaultColorGradient",
+	},
+	SphereCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+		Vec3 Offset = [0, 0, 0],
+		float Radius = 3,
+	},
+	TreeSoulBehavior = 
+	{
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Archetyped = 
+			{
+				string Name = "52767bfed4daa3cd:AbilitySoul",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.0337753, -0.0258579, 0],
+				Vec3 Scale = [1.33333, 1.33333, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			SpriteParticleSystem = 
+			{
+				SystemChildMode ChildMode = Independent,
+				SystemSpace SystemSpace = LocalSpace,
+				uint DrawOrder = 0,
+				ParticleGeometry GeometryMode = Billboarded,
+				ParticleRenderMode RenderMode = Additive,
+				ParticleSortMode SortMode = None,
+				string Texture = "4df5d3b6b7338274:Stripes",
+				Vec4 Tint = [0.568764, 0.915, 0.5124, 1],
+				float VelocityScale = 1,
+				float LengthScale = 0,
+				float MaxParticleSize = 100,
+				Vec3 SystemSize = [5, 5, 5],
+			},
+			SphericalParticleEmitter = 
+			{
+				bool Active = true,
+				uint EmitCount = 0,
+				float EmitRate = 50,
+				float EmitVariance = 0,
+				float Size = 1,
+				float SizeVariance = 0,
+				float Lifetime = 0.5,
+				float LifetimeVariance = 0,
+				float Spin = 250,
+				float SpinVariance = 100,
+				bool RandomSpin = true,
+				float Fill = 0,
+				float EmitterVelocityPercent = 0,
+				Vec3 StartVelocity = [0, 0, 0],
+				Vec3 RandomVelocity = [0, 0, 0],
+				Vec3 TangentVelocity = [0, 0, 0],
+				Vec3 EmitterSize = [1, 1, 1],
+				bool FastMovingEmitter = true,
+			},
+			LinearParticleAnimator = 
+			{
+				Vec3 Force = [0, 0, 0],
+				Vec3 RandomForce = [0, 0, 0],
+				float Torque = 0,
+				float Growth = 0,
+				float Dampening = 0,
+				Vec3 Twist = [0, 0, 0],
+			},
+			ParticleAttractor = 
+			{
+				float Strength = 10,
+				float MinDistance = 1,
+				float MaxDistance = 5,
+			},
+			Hierarchy = 
+			{
+			},
+		},
+	},
+},

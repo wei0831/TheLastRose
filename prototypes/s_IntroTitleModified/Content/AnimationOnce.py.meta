@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AnimationOnce",
+		uint64 ResourceId = 5297acad4255eb5e,
+	},
+},

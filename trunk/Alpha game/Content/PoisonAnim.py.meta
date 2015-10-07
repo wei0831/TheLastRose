@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PoisonAnim",
+		uint64 ResourceId = 52a71f7a021229f5,
+	},
+},

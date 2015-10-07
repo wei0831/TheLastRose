@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Summoned",
+		uint64 ResourceId = 5284798a4030504d,
+	},
+},

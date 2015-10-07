@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TouchAnimChange",
+		uint64 ResourceId = 5284d894560fcfca,
+	},
+},

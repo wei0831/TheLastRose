@@ -1,0 +1,38 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "yellow_blk_btm",
+	},
+	Archetyped = 
+	{
+		string Name = "5292d33d143d61ab:yellow_blk_btm",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, -0.982658, -8.52651e-014],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "529a8f65e8743da8:yellow_blk_btm",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	TriggerDoor = 
+	{
+	},
+},

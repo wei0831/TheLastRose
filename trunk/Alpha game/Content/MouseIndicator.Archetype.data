@@ -1,0 +1,84 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "MouseIndicator",
+	},
+	Archetyped = 
+	{
+		string Name = "5298aed8fca80d83:MouseIndicator",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-13.8381, 1.20619, 0],
+		Vec3 Scale = [0.2, 0.2, 0.2],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5274db4c2e7c11f9:Circle",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 0.16],
+		bool Visible = true,
+		bool OnTop = true,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	MouseLocationIndicator = 
+	{
+		float Range = 2.18,
+		string ShadeTable = "529a214b6cc56f11:ShadeTable",
+		bool Deactivated = false,
+	},
+	SphereCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "5299478ebf6efd70:Mouse",
+		Vec3 Offset = [0, 0, 0],
+		float Radius = 1.2,
+	},
+	Region = 
+	{
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = true,
+		bool RotationLocked = false,
+		bool Mode2D = false,
+		bool AllowSleep = true,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BurnAnim = 
+	{
+		bool Active = false,
+		float Alpha = 0.13,
+	},
+	FreezeAnim = 
+	{
+		bool Active = false,
+		float Alpha = 0.3,
+	},
+	PoisonAnim = 
+	{
+		bool Active = false,
+		float Alpha = 0.1,
+	},
+	Hierarchy = 
+	{
+	},
+},

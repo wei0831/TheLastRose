@@ -1,0 +1,13 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Frozen",
+			string Value = "529155823268b6a6:Water_M_Ice",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

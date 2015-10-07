@@ -1,0 +1,27 @@
+ContentLibrary = 
+{
+	string Name = "BGTest",
+	Array Files = 
+	[
+		"1.SpriteSource.png",
+		"2.SpriteSource.png",
+		"5.png",
+		"BareCaveSingle_Box_M.png",
+		"BareCaveTop_None_U.png",
+		"BareCave_Box_D.png",
+		"BareCave_Box_U.png",
+		"CameraFunction.py",
+		"Game.data",
+		"GrassTop_None_U.png",
+		"Grass_Box_U.png",
+		"Level.data",
+		"Level_TileMap00.TileMapSource.bin",
+		"Parallax.py",
+		"PlayerController.py",
+		"Space.data",
+		"SpriteRun.SpriteSource.png",
+	],
+	uint64 LibraryId = 5295130ccb8bcc82,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

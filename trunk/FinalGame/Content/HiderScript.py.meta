@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "HiderScript",
+		uint64 ResourceId = 527913a4c7de620b,
+	},
+},

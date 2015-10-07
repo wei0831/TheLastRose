@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PlayerMove",
+		uint64 ResourceId = 520ebd67c6a1f71d,
+	},
+},

@@ -1,0 +1,133 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Name1",
+			string Value = "52bac5890b7a7760:digipen-000",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name2",
+			string Value = "52bac26d3bbe0c66:digipen-0_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name3",
+			string Value = "52bac26c3bb8357e:digipen-1_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name4",
+			string Value = "52bac26c3bb35ef7:digipen-2_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name5",
+			string Value = "52bac26c3baedc1f:digipen-3_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name6",
+			string Value = "52bac26c3ba88cfc:digipen-4_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name7",
+			string Value = "52bac26c3ba281ae:digipen-5_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name8",
+			string Value = "52bac26b3b9c871e:digipen-6_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name9",
+			string Value = "52bac26b3b96a673:digipen-7_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name10",
+			string Value = "52bac26b3b8f5d98:digipen-8_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name11",
+			string Value = "52bac26b3b884559:digipen-9_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name12",
+			string Value = "52bac26a3b814975:digipen-10_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name13",
+			string Value = "52bac26a3bfa87a2:digipen-11_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name14",
+			string Value = "52bac26a3bf212de:digipen-12_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name15",
+			string Value = "52bac26a3bebbb49:digipen-13_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name16",
+			string Value = "52bac2693be3d490:digipen-14_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name17",
+			string Value = "52bac2693bda248c:digipen-15_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name18",
+			string Value = "52bac2693bd2b3a6:digipen-16_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name19",
+			string Value = "52bac2693bc985bd:digipen-17_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name20",
+			string Value = "52bac2683bc08726:digipen-18_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name21",
+			string Value = "52bac2683b37bd66:digipen-19_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name22",
+			string Value = "52bac2683b2d672c:digipen-20_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name23",
+			string Value = "52bac2773b23536c:digipen-21_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name24",
+			string Value = "52bac2773b19bc07:digipen-22_0",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name25",
+			string Value = "52bac2773b0e65ba:digipen-23_0",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

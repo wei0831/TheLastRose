@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ProtectiveAnimal",
+		uint64 ResourceId = 528001e7e5510d52,
+	},
+},

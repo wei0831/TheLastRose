@@ -1,0 +1,113 @@
+ResourceTable = 
+{
+	string ResourceType = "String",
+	Array EntryList = 
+	[
+		{
+			string Name = "Level1_1",
+			string Value = "GrassCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level1_2",
+			string Value = "GrassCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level1_3",
+			string Value = "GrassCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level1_4",
+			string Value = "GrassCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level1_5",
+			string Value = "GrassCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level2_1",
+			string Value = "CaveCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level2_2",
+			string Value = "CaveCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level2_3",
+			string Value = "CaveCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level2_4",
+			string Value = "CaveCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level2_5",
+			string Value = "CaveCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level2_6",
+			string Value = "CaveCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level2_7",
+			string Value = "CaveCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_1",
+			string Value = "SwampCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_2",
+			string Value = "SwampCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_3",
+			string Value = "SwampCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_4",
+			string Value = "SwampCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_5",
+			string Value = "SwampCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "HubLevel_1",
+			string Value = "HubCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "HubLevel_2",
+			string Value = "HubCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "HubLevel_3",
+			string Value = "HubCue",
+			float Weight = 1,
+		},
+		{
+			string Name = "HubLevel_5",
+			string Value = "HubCue",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

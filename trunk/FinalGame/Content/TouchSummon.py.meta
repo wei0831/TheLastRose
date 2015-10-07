@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TouchSummon",
+		uint64 ResourceId = 5284742cbd52ade0,
+	},
+},

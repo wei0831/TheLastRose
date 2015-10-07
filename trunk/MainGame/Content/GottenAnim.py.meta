@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GottenAnim",
+		uint64 ResourceId = 529475e04242fc19,
+	},
+},

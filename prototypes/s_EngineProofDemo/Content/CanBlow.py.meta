@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanBlow",
+		uint64 ResourceId = 5280f86d79c009df,
+	},
+},

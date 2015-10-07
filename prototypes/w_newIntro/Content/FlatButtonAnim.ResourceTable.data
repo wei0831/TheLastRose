@@ -1,0 +1,18 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Out",
+			string Value = "526bc0eb8a66f0bf:FlatButton1Trans",
+			float Weight = 1,
+		},
+		{
+			string Name = "In",
+			string Value = "526b06346701ee6a:FlatButton2Trans",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Cleanser",
+		uint64 ResourceId = 528ed2bcb712b430,
+	},
+},

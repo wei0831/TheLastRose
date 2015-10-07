@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PlayerGravityModifier",
+		uint64 ResourceId = 5277755018fec748,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TouchGiveSkill",
+		uint64 ResourceId = 5284602d400f353d,
+	},
+},

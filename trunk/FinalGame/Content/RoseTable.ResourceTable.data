@@ -1,0 +1,33 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "NonActivated",
+			string Value = "5284d7d6b75f2892:RoseBloomeFrame1",
+			float Weight = 1,
+		},
+		{
+			string Name = "Activated",
+			string Value = "5284d728b36ce9bb:RoseBloomeAnim",
+			float Weight = 1,
+		},
+		{
+			string Name = "0",
+			string Value = "5284d7d6b75f2892:RoseBloomeFrame1",
+			float Weight = 1,
+		},
+		{
+			string Name = "1",
+			string Value = "5284d7e6b91a1cd9:RoseBloomeFrame2",
+			float Weight = 1,
+		},
+		{
+			string Name = "2",
+			string Value = "5284d78fbc819c18:RoseBloomeFrame3",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

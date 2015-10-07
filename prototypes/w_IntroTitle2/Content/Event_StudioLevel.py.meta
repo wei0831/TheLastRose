@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Event_StudioLevel",
+		uint64 ResourceId = 52943bdf9ab1ddbb,
+	},
+},

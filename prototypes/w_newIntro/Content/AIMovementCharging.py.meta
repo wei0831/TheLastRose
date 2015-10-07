@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AIMovementCharging",
+		uint64 ResourceId = 5299a65fbc927359,
+	},
+},

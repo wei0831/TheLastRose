@@ -1,0 +1,8 @@
+FontContent = 
+{
+	FontBuilder = 
+	{
+		string Name = "RAGE",
+		uint64 ResourceId = 5268178cfa74bed7,
+	},
+},

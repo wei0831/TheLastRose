@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Freezeable",
+		uint64 ResourceId = 52771283d99e46d5,
+	},
+},

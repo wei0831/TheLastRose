@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "WaterLayerGenerator",
+		uint64 ResourceId = 52916d464e967fec,
+	},
+},

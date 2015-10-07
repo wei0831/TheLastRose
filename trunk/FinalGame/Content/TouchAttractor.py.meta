@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TouchAttractor",
+		uint64 ResourceId = 52840cb59f097163,
+	},
+},

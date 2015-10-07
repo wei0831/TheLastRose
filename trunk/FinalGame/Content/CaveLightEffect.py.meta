@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CaveLightEffect",
+		uint64 ResourceId = 5280c70dbffb59d8,
+	},
+},

@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "EnemyBase",
+		uint64 ResourceId = 5274d06a24fd3f4e,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 60,
+		uint FrameSizeY = 48,
+		uint FrameCount = 2,
+		float FrameDelay = 0.333333,
+		float OriginX = 30,
+		float OriginY = 24,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},

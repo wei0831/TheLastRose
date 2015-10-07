@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Poisonable",
+		uint64 ResourceId = 52771292dbbc7025,
+	},
+},

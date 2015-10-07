@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TitleLevelEvent",
+		uint64 ResourceId = 52943bdf9ab1ddbb,
+	},
+},

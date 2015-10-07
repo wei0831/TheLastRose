@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PairManager",
+		uint64 ResourceId = 5282b1e7627b9f74,
+	},
+},

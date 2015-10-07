@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "RoseBloomeAnim",
+		uint64 ResourceId = 5284d728b36ce9bb,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 32,
+		uint FrameSizeY = 32,
+		uint FrameCount = 3,
+		float FrameDelay = 0.111111,
+		float OriginX = 16,
+		float OriginY = 32,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = false,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},

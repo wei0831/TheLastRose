@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "BurnAnim",
+		uint64 ResourceId = 524d480a351218dc,
+	},
+},

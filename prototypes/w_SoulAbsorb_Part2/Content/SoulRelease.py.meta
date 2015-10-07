@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SoulRelease",
+		uint64 ResourceId = 528faea13360ee91,
+	},
+},

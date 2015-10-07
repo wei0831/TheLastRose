@@ -1,0 +1,18 @@
+ContentLibrary = 
+{
+	string Name = "AnimationTest",
+	Array Files = 
+	[
+		"FadeAnim.py",
+		"Game.data",
+		"GrowhHorizontal.SampleCurve.data",
+		"GrowthAnim.py",
+		"GrowthVertical.SampleCurve.data",
+		"Level.data",
+		"Space.data",
+		"mushroom.SpriteSource.png",
+	],
+	uint64 LibraryId = 5248d0dc04b24e33,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

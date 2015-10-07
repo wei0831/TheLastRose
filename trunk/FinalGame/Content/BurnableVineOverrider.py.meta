@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "BurnableVineOverrider",
+		uint64 ResourceId = 52846dc00dab79a8,
+	},
+},

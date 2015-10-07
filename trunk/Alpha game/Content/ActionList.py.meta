@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ActionList",
+		uint64 ResourceId = 524e0d48fa59ab37,
+	},
+},

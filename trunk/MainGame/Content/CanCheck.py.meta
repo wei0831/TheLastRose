@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanCheck",
+		uint64 ResourceId = 5269283633151299,
+	},
+},

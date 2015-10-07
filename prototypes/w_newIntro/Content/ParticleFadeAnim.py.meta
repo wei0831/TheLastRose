@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ParticleFadeAnim",
+		uint64 ResourceId = 526ad99cb05bee77,
+	},
+},

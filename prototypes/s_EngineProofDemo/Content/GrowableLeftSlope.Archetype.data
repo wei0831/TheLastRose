@@ -1,0 +1,24 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "GrowableSlope",
+	},
+	Archetyped = 
+	{
+		string Name = "526ba2f36005b25c:GrowableLeftSlope",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-11.2821, 4.1903, 0.012001],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Hierarchy = 
+	{
+	},
+},

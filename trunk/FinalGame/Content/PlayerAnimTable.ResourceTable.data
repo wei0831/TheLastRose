@@ -1,0 +1,48 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Walk",
+			string Value = "52802f300951224d:Sprite_Run",
+			float Weight = 1,
+		},
+		{
+			string Name = "Jump",
+			string Value = "52802ff0f1f097bc:Sprite_Jump",
+			float Weight = 1,
+		},
+		{
+			string Name = "Fall",
+			string Value = "52802f83f078812c:Sprite_Descent",
+			float Weight = 1,
+		},
+		{
+			string Name = "Stand",
+			string Value = "52802fde0d76d21a:Sprite_Idle1",
+			float Weight = 1,
+		},
+		{
+			string Name = "Grab",
+			string Value = "52802fa2f4079272:Sprite_TurnipHang",
+			float Weight = 1,
+		},
+		{
+			string Name = "Attack",
+			string Value = "52801aae791c811d:Sprite_AttackRight",
+			float Weight = 1,
+		},
+		{
+			string Name = "AttackLeft",
+			string Value = "52801a907736be30:Sprite_AttackLeft",
+			float Weight = 1,
+		},
+		{
+			string Name = "Pain",
+			string Value = "52bacd8e19bf94f6:Sprite_Hurt",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

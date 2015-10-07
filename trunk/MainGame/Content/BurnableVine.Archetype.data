@@ -1,0 +1,86 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "BurnableVine",
+	},
+	Archetyped = 
+	{
+		string Name = "526043d786fbfb43:BurnableVine",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [40.3242, 18.4601, 0.012001],
+		Vec3 Scale = [0.606254, 9.98283, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "4e740859314e5515:DefaultGroup",
+		Vec3 Offset = [0, 0, 0],
+		Vec3 Size = [0.5, 0.5, 0.5],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5275aa4d802dd6dc:Square",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [0.035784, 0.28, 0.0308, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Additive,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	IsSentry = 
+	{
+		Vec3 SentryDirection = [0, 0, 0],
+	},
+	TriggerDoor = 
+	{
+	},
+	Burnable = 
+	{
+		bool PropagateBurn = true,
+	},
+	BurnableVine = 
+	{
+	},
+	GrowthAnim = 
+	{
+		string VerticalGrowthCurve = "4f16dfae49806add:DefaultCurve",
+		string HorizontalGrowhCurve = "4f16dfae49806add:DefaultCurve",
+		bool Active = false,
+		float Duration = 1,
+		bool Reverse = false,
+		bool Repeat = false,
+		float Scaling = 1,
+	},
+	DestroyInterface = 
+	{
+	},
+	DestroyFadeAnim = 
+	{
+	},
+	FadeAnim = 
+	{
+		float FadingDuration = 0.3,
+		bool Active = false,
+		int FadeDirection = -1,
+		bool Repeat = false,
+	},
+	ActionList = 
+	{
+		bool Active = true,
+	},
+},

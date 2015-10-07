@@ -1,0 +1,144 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "FreezableFlow",
+	},
+	Archetyped = 
+	{
+		string Name = "5260435c980afc7d:FreezableFlow",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-2.76217, -34.4531, -0.1],
+		Vec3 Scale = [11.5, 8, 1],
+		Quat Rotation = [0, 0, -0.000330597, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5275aa4d802dd6dc:Square",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [0.0171, 0.285, 0.260889, 1],
+		bool Visible = false,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Additive,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "52a8b588de226691:Ground",
+		Vec3 Offset = [0, 0, 0],
+		Vec3 Size = [0.5, 0.5, 0.5],
+	},
+	Region = 
+	{
+	},
+	BuoyancyEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = false,
+		float Density = 10,
+		Vec3 Gravity = [0, -50, 0],
+		uint Detail = 5,
+		bool DebugDraw = false,
+	},
+	DragEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = false,
+		float Drag = 5,
+	},
+	GravityEffect = 
+	{
+		bool Active = false,
+		bool WakeUpOnChange = false,
+		bool LocalSpaceDirection = false,
+		float Strength = 30,
+		Vec3 Direction = [0, 1, 0],
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = true,
+		bool RotationLocked = false,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	FreezableFlow = 
+	{
+		float FreezeDelay = 1.5,
+		uint FreezingObject = 0,
+	},
+	WaterLayerGenerator = 
+	{
+		int RecsInX = 10,
+		int RecsInY = 10,
+		float Rec_W = 0.5,
+		float Rec_H = 0.5,
+	},
+	CanHurt = 
+	{
+		float HurtRate = -5,
+		bool Active = true,
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "RainShield",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.00484842, -0.00572785, -0.1],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5275aa4d802dd6dc:Square",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = false,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Multiply,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "528a3f8c00d45a29:RainShield",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.5, 0.5, 0.5],
+			},
+		},
+	},
+},

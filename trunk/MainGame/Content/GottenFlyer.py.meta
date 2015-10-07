@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GottenFlyer",
+		uint64 ResourceId = 529477aa063a8a30,
+	},
+},

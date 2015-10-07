@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "RainGenerator",
+		uint64 ResourceId = 5297acad42365ac2,
+	},
+},

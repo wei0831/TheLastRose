@@ -1,0 +1,138 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Name1",
+			string Value = "52875efb9edab1e7:000",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name2",
+			string Value = "52875efb9e94c3c2:00",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name3",
+			string Value = "52875efb9e6d4d53:01",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name4",
+			string Value = "52875efb9e40fe92:02",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name5",
+			string Value = "52875efb9e5964d2:03",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name6",
+			string Value = "52875efb9e2e2985:04",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name7",
+			string Value = "52875efb9e050094:05",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name8",
+			string Value = "52875efa9e1c25af:06",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name9",
+			string Value = "52875f5e29fd28f9:07",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name10",
+			string Value = "52875f5d29b3ea2b:08",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name11",
+			string Value = "52875f5d2985ce67:09",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name12",
+			string Value = "52875f5d299685da:10",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name13",
+			string Value = "52875f5d2968cb2e:11",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name14",
+			string Value = "52875f5d297f6a20:12",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name15",
+			string Value = "52875f5d29552178:13",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name16",
+			string Value = "52875f5d292b1d0f:14",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name17",
+			string Value = "52875f5d293e6282:15",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name18",
+			string Value = "52875f5d2914c62f:16",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name19",
+			string Value = "52875f5d2aeaf23f:17",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name20",
+			string Value = "52875f5c2ad7ae20:18",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name21",
+			string Value = "52875f5c2ab6a184:19",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name22",
+			string Value = "52875f5c2a938399:20",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name23",
+			string Value = "52875f5c2a7ded8a:21",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name24",
+			string Value = "52875f5c2a5d9956:22",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name25",
+			string Value = "52875f5c2a32b551:23",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name26",
+			string Value = "52875f5c2a0f7208:24",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

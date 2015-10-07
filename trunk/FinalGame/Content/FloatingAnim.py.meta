@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "FloatingAnim",
+		uint64 ResourceId = 52e5367ccd549cae,
+	},
+},

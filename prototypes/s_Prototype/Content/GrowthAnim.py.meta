@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GrowthAnim",
+		uint64 ResourceId = 524e2b35ac6c2d16,
+	},
+},

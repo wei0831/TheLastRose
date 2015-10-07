@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Checkable",
+		uint64 ResourceId = 5269298d5ef2d8b7,
+	},
+},

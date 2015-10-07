@@ -1,0 +1,436 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "YellowWall",
+	},
+	Archetyped = 
+	{
+		string Name = "52923115ad4ed4cf:YellowWall",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-25.9384, -27.2242, 4.76837e-007],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	TriggerDoor = 
+	{
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "yellow_blk_mid",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0.491925, -8.52651e-014],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f6feb2fe59a:yellow_blk_mid",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 3,
+			},
+			Named = 
+			{
+				string Name = "yellow_blk_mid",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0.982269, 8.52651e-014],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f6feb2fe59a:yellow_blk_mid",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			TriggerDoor = 
+			{
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 4,
+			},
+			Named = 
+			{
+				string Name = "yellow_blk_top",
+			},
+			Archetyped = 
+			{
+				string Name = "5292d30911dfa658:yellow_blk_top",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 2.94156, -8.52651e-014],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f68eae37e66:yellow_blk_top",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			TriggerDoor = 
+			{
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 5,
+			},
+			Named = 
+			{
+				string Name = "yellow_blk_btm",
+			},
+			Archetyped = 
+			{
+				string Name = "5292d33d143d61ab:yellow_blk_btm",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0.000291228, -8.52651e-014],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f65e8743da8:yellow_blk_btm",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			TriggerDoor = 
+			{
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 6,
+			},
+			Named = 
+			{
+				string Name = "yellow_blk_mid",
+			},
+			Archetyped = 
+			{
+				string Name = "5292d3121092eabf:yellow_blk_mid",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 1.47823, 8.52651e-014],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f6feb2fe59a:yellow_blk_mid",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			TriggerDoor = 
+			{
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 7,
+			},
+			Named = 
+			{
+				string Name = "yellow_blk_mid",
+			},
+			Archetyped = 
+			{
+				string Name = "5292d3121092eabf:yellow_blk_mid",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 1.97572, 8.52651e-014],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f6feb2fe59a:yellow_blk_mid",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			TriggerDoor = 
+			{
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 8,
+			},
+			Named = 
+			{
+				string Name = "yellow_blk_mid",
+			},
+			Archetyped = 
+			{
+				string Name = "5292d3121092eabf:yellow_blk_mid",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 2.4513, 8.52651e-014],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f6feb2fe59a:yellow_blk_mid",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			TriggerDoor = 
+			{
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+		},
+	},
+},

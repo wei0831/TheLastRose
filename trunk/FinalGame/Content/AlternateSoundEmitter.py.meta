@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AlternateSoundEmitter",
+		uint64 ResourceId = 528d71a31aff5820,
+	},
+},

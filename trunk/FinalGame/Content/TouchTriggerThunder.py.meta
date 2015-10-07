@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TouchTriggerThunder",
+		uint64 ResourceId = 52842efc1b214e9a,
+	},
+},

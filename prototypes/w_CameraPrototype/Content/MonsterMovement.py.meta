@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "MonsterMovement",
+		uint64 ResourceId = 528048ab554a7f75,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "DestroyCreateArchetype",
+		uint64 ResourceId = 527732b58460a276,
+	},
+},

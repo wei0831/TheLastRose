@@ -1,0 +1,16 @@
+ContentLibrary = 
+{
+	string Name = "SoundTest",
+	Array Files = 
+	[
+		"Boss Theme_V3.wav",
+		"Game.data",
+		"Level.data",
+		"PlayerMove.py",
+		"Space.data",
+		"Test1.SoundCue.data",
+	],
+	uint64 LibraryId = 520eb920b85b2530,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

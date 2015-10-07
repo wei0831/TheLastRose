@@ -1,0 +1,8 @@
+FontContent = 
+{
+	FontBuilder = 
+	{
+		string Name = "04B_03__",
+		uint64 ResourceId = 529c5a3dfb4792d6,
+	},
+},

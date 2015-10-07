@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AIMovementSentry",
+		uint64 ResourceId = 5277c126c196d35b,
+	},
+},

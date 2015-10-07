@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "LightLayer",
+		uint64 ResourceId = 52ba60183ffdf502,
+	},
+},

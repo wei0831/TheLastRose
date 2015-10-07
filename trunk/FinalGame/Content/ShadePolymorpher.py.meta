@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ShadePolymorpher",
+		uint64 ResourceId = 528d0318ca35ab1d,
+	},
+},

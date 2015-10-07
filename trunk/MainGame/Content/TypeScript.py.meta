@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TypeScript",
+		uint64 ResourceId = 529d63a185ad53ab,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "WhirlingnutDragger",
+		uint64 ResourceId = 528e342cb77d6a0b,
+	},
+},

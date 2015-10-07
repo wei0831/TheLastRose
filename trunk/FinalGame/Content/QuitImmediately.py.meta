@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "QuitImmediately",
+		uint64 ResourceId = 52844e98e6bf014a,
+	},
+},

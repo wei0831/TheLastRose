@@ -1,0 +1,11 @@
+AudioContent = 
+{
+	SoundBuilder = 
+	{
+		string Name = "Cave",
+		uint64 ResourceId = 529d9eee8f869326,
+		bool Compressed = false,
+		uint Quality = 100,
+		SoundLoadType LoadType = Streamed,
+	},
+},

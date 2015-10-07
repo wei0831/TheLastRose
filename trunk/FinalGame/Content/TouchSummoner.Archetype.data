@@ -1,0 +1,44 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "TouchSummoner",
+	},
+	Archetyped = 
+	{
+		string Name = "52bacf95d52e8e42:TouchSummoner",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, 0, 0],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SphereCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+		Vec3 Offset = [0, 0, 0],
+		float Radius = 3,
+	},
+	TouchSummon = 
+	{
+		float SummonSpeed = 0.01,
+	},
+	TouchGiveSkill = 
+	{
+	},
+	DestroyInterface = 
+	{
+	},
+	HotFixTouchSummoner = 
+	{
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanDie",
+		uint64 ResourceId = 52b6718eb0fb44a7,
+	},
+},

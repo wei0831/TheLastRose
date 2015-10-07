@@ -1,0 +1,63 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Name1",
+			string Value = "5295dff3d730dda3:00",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name2",
+			string Value = "5295deb96b3eaf0d:01",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name3",
+			string Value = "5295deb96b0d4b3f:02",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name4",
+			string Value = "5295deb96b15d52c:03",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name5",
+			string Value = "5295deb96b1d1c1c:04",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name6",
+			string Value = "5295deb964e270bc:05",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name7",
+			string Value = "5295deb964ebbe78:06",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name8",
+			string Value = "5295deb964f5627a:07",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name9",
+			string Value = "5295deb964faab9f:08",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name10",
+			string Value = "5295deb964c20a5b:09",
+			float Weight = 1,
+		},
+		{
+			string Name = "Name11",
+			string Value = "5295deb964cb58f3:10",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

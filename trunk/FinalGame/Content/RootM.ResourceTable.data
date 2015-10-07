@@ -1,0 +1,33 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Out",
+			string Value = "52996c90994202e2:RootMOut",
+			float Weight = 1,
+		},
+		{
+			string Name = "In",
+			string Value = "5281c39dda4a010a:RootMIn",
+			float Weight = 1,
+		},
+		{
+			string Name = "Rest",
+			string Value = "52996cb59d9bd80e:RootMWalk",
+			float Weight = 1,
+		},
+		{
+			string Name = "Attack",
+			string Value = "5281c4a9763ab0ef:RootMAttack",
+			float Weight = 1,
+		},
+		{
+			string Name = "Under",
+			string Value = "5298bd6738f1a44e:RootMUnder",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

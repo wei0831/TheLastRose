@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TransferEffectToChild",
+		uint64 ResourceId = 526b0c93a5dd5075,
+	},
+},

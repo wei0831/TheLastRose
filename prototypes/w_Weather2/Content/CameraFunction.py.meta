@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CameraFunction",
+		uint64 ResourceId = 526e7f7e5f4208bf,
+	},
+},

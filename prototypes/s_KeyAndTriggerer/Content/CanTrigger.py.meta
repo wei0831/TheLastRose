@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanTrigger",
+		uint64 ResourceId = 52e5241783ff6d1b,
+	},
+},

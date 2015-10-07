@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanInstantKill",
+		uint64 ResourceId = 52692d1ee8a79a3b,
+	},
+},

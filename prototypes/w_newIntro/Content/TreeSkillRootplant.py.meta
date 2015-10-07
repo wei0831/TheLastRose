@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TreeSkillRootplant",
+		uint64 ResourceId = 52e500eee81cc6a5,
+	},
+},

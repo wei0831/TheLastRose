@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "LightSource",
+		uint64 ResourceId = 52859c93703f36fd,
+	},
+},

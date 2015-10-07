@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "FreezeAnimReceiver",
+		uint64 ResourceId = 5291626646f81ce7,
+	},
+},

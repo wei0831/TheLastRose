@@ -1,0 +1,28 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "TreeSkillWhirlingnut",
+			string Value = "529a3eec63f762ca:TurnipShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "TreeSkillRootplant",
+			string Value = "529a3ef8652acdcc:RootShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "TreeSkillMushroom",
+			string Value = "529a3e07746645cf:MushroomShade",
+			float Weight = 1,
+		},
+		{
+			string Name = "Circle",
+			string Value = "5274db4c2e7c11f9:Circle",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

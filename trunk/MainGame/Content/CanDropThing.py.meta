@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanDropThing",
+		uint64 ResourceId = 529ed08265a5a583,
+	},
+},

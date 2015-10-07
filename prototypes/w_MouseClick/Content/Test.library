@@ -1,0 +1,17 @@
+ContentLibrary = 
+{
+	string Name = "Test",
+	Array Files = 
+	[
+		"CameraMovement.py",
+		"ClickReciever.py",
+		"Game.data",
+		"Level.data",
+		"MouseLocationIndicator.py",
+		"PlayerMovement.py",
+		"Space.data",
+	],
+	uint64 LibraryId = 528ee6df03733441,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

@@ -1,0 +1,33 @@
+ResourceTable = 
+{
+	string ResourceType = "SpriteSource",
+	Array EntryList = 
+	[
+		{
+			string Name = "Black",
+			string Value = "52988009eb73d186:BlackDoor",
+			float Weight = 1,
+		},
+		{
+			string Name = "Green",
+			string Value = "529ec538315821e3:Door_Green",
+			float Weight = 1,
+		},
+		{
+			string Name = "Blue",
+			string Value = "529ecccb3faa3485:Door_Blue",
+			float Weight = 1,
+		},
+		{
+			string Name = "Red",
+			string Value = "529fd64fe5360d24:Door_Red",
+			float Weight = 1,
+		},
+		{
+			string Name = "Grey",
+			string Value = "5292c4fbd39f2b2b:Door_Grey",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

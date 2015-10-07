@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanPoison",
+		uint64 ResourceId = 52a71ea6128bbe81,
+	},
+},

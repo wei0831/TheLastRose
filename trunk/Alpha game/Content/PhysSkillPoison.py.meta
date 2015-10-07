@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PhysSkillPoison",
+		uint64 ResourceId = 52a71dc0963f6600,
+	},
+},

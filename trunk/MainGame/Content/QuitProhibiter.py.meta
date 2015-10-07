@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "QuitProhibiter",
+		uint64 ResourceId = 5295441101745a88,
+	},
+},

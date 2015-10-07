@@ -1,0 +1,20 @@
+SoundCue = 
+{
+	PlayMode PlayMode = Looping,
+	float Volume = 1,
+	float VolumeVariation = 0,
+	float Pitch = 0,
+	float PitchVariation = 0,
+	float MinDistance = 1,
+	float MaxDistance = 1,
+	float PositionRandomization = 0,
+	uint MaxPlaybacks = 10,
+	int Priority = 128,
+	Array Sounds = 
+	[
+		{
+			string SoundName = "520ebda6e549868b:Boss Theme_V3",
+			float Weight = 1,
+		},
+	],
+},

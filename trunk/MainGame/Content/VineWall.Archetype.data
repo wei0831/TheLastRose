@@ -1,0 +1,168 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "VineWall",
+	},
+	Archetyped = 
+	{
+		string Name = "529018db5165de78:VineWall",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-26.4703, -26.6292, 0],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Hierarchy = 
+	{
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, -0.222042, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 3,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [3.8147e-006, -0.628496, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 4,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0.651079, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 5,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0.199463, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 6,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 1.15, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 7,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 1.64892, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 8,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 2.13924, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+		ArchetypeInstance = 
+		{
+			string Name = "5296541ea8f62383:BurnableVineTile",
+			LinkId = 
+			{
+				uint Id = 9,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 2.62956, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BurnableVine",
+			},
+		},
+	},
+},

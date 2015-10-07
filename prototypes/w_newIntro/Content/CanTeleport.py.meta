@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanTeleport",
+		uint64 ResourceId = 5280f667dd9d187a,
+	},
+},

@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "RainDrop",
+		uint64 ResourceId = 52b4f600a7c55195,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 64,
+		uint FrameSizeY = 18,
+		uint FrameCount = 5,
+		float FrameDelay = 0.0833333,
+		float OriginX = 32,
+		float OriginY = 2,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},

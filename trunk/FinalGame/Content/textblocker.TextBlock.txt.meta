@@ -1,0 +1,8 @@
+TextContent = 
+{
+	TextBuilder = 
+	{
+		string Name = "textblocker",
+		uint64 ResourceId = 529c5480903caf80,
+	},
+},

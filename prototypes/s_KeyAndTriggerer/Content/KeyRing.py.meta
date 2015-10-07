@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "KeyRing",
+		uint64 ResourceId = 52e553bdd993956a,
+	},
+},

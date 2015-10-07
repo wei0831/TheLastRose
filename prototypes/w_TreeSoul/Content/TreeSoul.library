@@ -1,0 +1,16 @@
+ContentLibrary = 
+{
+	string Name = "TreeSoul",
+	Array Files = 
+	[
+		"Block.Archetype.data",
+		"Game.data",
+		"Level.data",
+		"Space.data",
+		"TreeSoul.SpriteSource.png",
+		"ZeroToOne.ColorGradient.data",
+	],
+	uint64 LibraryId = 52b1ec21c1c43879,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

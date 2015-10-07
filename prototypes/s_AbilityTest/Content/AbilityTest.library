@@ -1,0 +1,19 @@
+ContentLibrary = 
+{
+	string Name = "AbilityTest",
+	Array Files = 
+	[
+		"AbilityStatus.py",
+		"Game.data",
+		"Level.data",
+		"PhysSkillFire.py",
+		"PhysSkillIce.py",
+		"Space.data",
+		"TreeSkillMushroom.py",
+		"TreeSkillWhirlingnut.py",
+		"gamelogic.py",
+	],
+	uint64 LibraryId = 524f7f547835daf9,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Pause",
+		uint64 ResourceId = 52665fc20f33a8da,
+	},
+},

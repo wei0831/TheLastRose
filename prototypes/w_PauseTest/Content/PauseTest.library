@@ -1,0 +1,16 @@
+ContentLibrary = 
+{
+	string Name = "PauseTest",
+	Array Files = 
+	[
+		"Default.Level.data",
+		"Game.data",
+		"HUDLevel.Level.data",
+		"LevelStart.py",
+		"Pause.py",
+		"Space.data",
+	],
+	uint64 LibraryId = 52665ff4f36f85fd,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TriggerDoor",
+		uint64 ResourceId = 52e55b2e5b84745b,
+	},
+},

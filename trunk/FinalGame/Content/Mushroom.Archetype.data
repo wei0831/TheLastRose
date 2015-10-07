@@ -1,0 +1,128 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Mushroom",
+	},
+	Archetyped = 
+	{
+		string Name = "524e0b361ead0620:Mushroom",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-32.8727, -6.72274, 4.76837e-007],
+		Vec3 Scale = [1, 1, 0.0001],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = true,
+		bool RotationLocked = true,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = false,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	GrowthAnim = 
+	{
+		string VerticalGrowthCurve = "524e04b798a23a39:GrowthVertical.SampleCurve",
+		string HorizontalGrowhCurve = "524e04b798a22714:GrowhHorizontal.SampleCurve",
+		bool Active = true,
+		float Duration = 0.5,
+		bool Reverse = false,
+		bool Repeat = false,
+		float Scaling = 1,
+	},
+	ActionList = 
+	{
+		bool Active = true,
+	},
+	WindSpawningPlant = 
+	{
+	},
+	DuplicateDestroy = 
+	{
+		string Code = "Mushroom",
+		bool Active = true,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "529fea0747925544:Plant",
+		Vec3 Offset = [0, 0.085, 0],
+		Vec3 Size = [0.1, 0.2, 5],
+	},
+	DestroyPlayAnim = 
+	{
+		bool InvalidateCollider = true,
+	},
+	DestroyInterface = 
+	{
+	},
+	TimedDeath = 
+	{
+		float LifeTime = 20,
+		bool Active = true,
+		bool DestroyAtTheEnd = true,
+	},
+	CanBounce = 
+	{
+		bool Active = true,
+		float ForcedVx = 0,
+		float ForcedVy = 13,
+		bool UpdateBasedOnSprite = false,
+		bool TopModify = true,
+	},
+	CanBeRooted = 
+	{
+		bool ShouldRoot = true,
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "mushroom",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, 0.090511, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5269745f27e9f865:Shroom_New",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			AnimManager = 
+			{
+				string AnimTable = "5287bade70376c26:ShroomPoweredTable",
+			},
+		},
+	},
+},

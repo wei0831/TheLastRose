@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GroundSoundManager",
+		uint64 ResourceId = 528d7759771192b0,
+	},
+},

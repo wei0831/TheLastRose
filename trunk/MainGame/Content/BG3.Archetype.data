@@ -1,0 +1,33 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "BG3",
+	},
+	Archetyped = 
+	{
+		string Name = "52683f4ddcd0ad3f:BG3",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, 0, -10],
+		Vec3 Scale = [2, 2, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Parallax = 
+	{
+		float OffsetY = 1,
+		float ScaleX = 2,
+		float ScaleY = 2,
+		int Layer = -15,
+		string Image = "5266469a3737a464:MountinBack_None_2.png",
+		uint Camera = 2,
+		uint Player = 3,
+		float ScrollX = 0.95,
+		float ScrollY = 0.75,
+	},
+},

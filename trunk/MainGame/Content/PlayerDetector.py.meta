@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PlayerDetector",
+		uint64 ResourceId = 5299aa3821b915ed,
+	},
+},

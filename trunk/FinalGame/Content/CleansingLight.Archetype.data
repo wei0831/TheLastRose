@@ -1,0 +1,135 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "CleansingLight",
+	},
+	Archetyped = 
+	{
+		string Name = "528ed2aab4b7a355:CleansingLight",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-34.5164, -13.2411, 0.518749],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	GotLight = 
+	{
+		uint Light = 0,
+		float Size = 0.25,
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "fan_light",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-0.0240211, 1.55473, -0.418749],
+				Vec3 Scale = [0.39756, 0.957202, 1],
+				Quat Rotation = [0, 0, 1, 4.37114e-008],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529fbf454cd85f91:fan_light",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [0.65, 0, 0, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = true,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.5, 4, 0.5],
+			},
+			Cleanser = 
+			{
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 3,
+			},
+			Named = 
+			{
+				string Name = "BasicParticleEffect",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.0240211, -1.55473, 0.41875],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			SpriteParticleSystem = 
+			{
+				SystemChildMode ChildMode = Independent,
+				SystemSpace SystemSpace = WorldSpace,
+				uint DrawOrder = 0,
+				ParticleGeometry GeometryMode = Billboarded,
+				ParticleRenderMode RenderMode = Additive,
+				ParticleSortMode SortMode = None,
+				string Texture = "4e11a21a2e25bfd8:Twinkle",
+				Vec4 Tint = [0.375, 0.27375, 0.27375, 0.9999],
+				float VelocityScale = 1,
+				float LengthScale = 0,
+				float MaxParticleSize = 100,
+				Vec3 SystemSize = [5, 5, 5],
+			},
+			LinearParticleAnimator = 
+			{
+				Vec3 Force = [0, 4, 0],
+				Vec3 RandomForce = [0, 0, 0],
+				float Torque = 0,
+				float Growth = 0,
+				float Dampening = 0,
+				Vec3 Twist = [0, 0, 0],
+			},
+			SphericalParticleEmitter = 
+			{
+				bool Active = true,
+				uint EmitCount = 0,
+				float EmitRate = 20,
+				float EmitVariance = 0,
+				float Size = 0.3,
+				float SizeVariance = 0,
+				float Lifetime = 3,
+				float LifetimeVariance = 0,
+				float Spin = 30,
+				float SpinVariance = 0,
+				bool RandomSpin = true,
+				float Fill = 0,
+				float EmitterVelocityPercent = 0,
+				Vec3 StartVelocity = [0, 0, 0],
+				Vec3 RandomVelocity = [0.2, 0, 0],
+				Vec3 TangentVelocity = [0, 0, 0],
+				Vec3 EmitterSize = [1, 1, 0],
+				bool FastMovingEmitter = false,
+			},
+		},
+	},
+},

@@ -1,0 +1,42 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "RainMaker",
+	},
+	Archetyped = 
+	{
+		string Name = "526043a070e7da5b:RainMaker",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [76.6974, 23.6888, 40.0001],
+		Vec3 Scale = [16.9046, 0.949376, 0.949376],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5275aa4d802dd6dc:Square",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = false,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	RainGenerator = 
+	{
+		float CoolDown = 0.25,
+		int Amount = 15,
+		float SpeedVariation = -10,
+		bool Activatable = false,
+	},
+},

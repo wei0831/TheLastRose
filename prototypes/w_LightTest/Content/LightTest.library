@@ -1,0 +1,20 @@
+ContentLibrary = 
+{
+	string Name = "LightTest",
+	Array Files = 
+	[
+		"FireCloud.png",
+		"Game.data",
+		"Level.data",
+		"LightLayer.py",
+		"LightRec.Archetype.data",
+		"LightReciever.py",
+		"LightSource.py",
+		"SimpleCameraMove.py",
+		"Space.data",
+		"digipen.SpriteSource.png",
+	],
+	uint64 LibraryId = 52ba60ecc62f1234,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

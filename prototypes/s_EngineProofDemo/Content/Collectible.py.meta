@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Collectible",
+		uint64 ResourceId = 526ad9dccbc7fa60,
+	},
+},

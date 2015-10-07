@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ShadowBehavior",
+		uint64 ResourceId = 52960d6e0993ea90,
+	},
+},

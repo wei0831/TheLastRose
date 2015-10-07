@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ReflectorLogic",
+		uint64 ResourceId = 529aa1ef2024c54f,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "HotFixTouchSummoner",
+		uint64 ResourceId = 52bacec4c8a4cbc7,
+	},
+},

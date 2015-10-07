@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "IntroLevelEvent",
+		uint64 ResourceId = 529599aae132d5d3,
+	},
+},

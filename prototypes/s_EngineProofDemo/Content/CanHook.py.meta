@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CanHook",
+		uint64 ResourceId = 52a719a3d5fa00c7,
+	},
+},

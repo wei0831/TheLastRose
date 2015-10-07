@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SaveMyGame",
+		uint64 ResourceId = 5292a12e0c03abfd,
+	},
+},

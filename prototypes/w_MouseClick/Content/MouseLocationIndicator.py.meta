@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "MouseLocationIndicator",
+		uint64 ResourceId = 528e9d4effaeb40f,
+	},
+},

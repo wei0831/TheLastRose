@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "KeyHoleDoor",
+		uint64 ResourceId = 526b05a9ba7cf25b,
+	},
+},

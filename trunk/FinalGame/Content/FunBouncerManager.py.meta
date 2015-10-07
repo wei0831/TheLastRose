@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "FunBouncerManager",
+		uint64 ResourceId = 5287a5327951016c,
+	},
+},

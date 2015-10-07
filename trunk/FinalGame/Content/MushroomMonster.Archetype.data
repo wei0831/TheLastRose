@@ -1,0 +1,176 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "MushroomMonster",
+	},
+	Archetyped = 
+	{
+		string Name = "5260440d39d99a13:MushroomMonster",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-27.3082, -16.4367, 4.76837e-007],
+		Vec3 Scale = [1.3, 1.3, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "52996d21cf9c93cf:MushroomMWalk",
+		bool FlipX = true,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	HealthStatus = 
+	{
+		float MaxHealth = 50,
+		float RegenRate = 0,
+		bool Updatable = true,
+		bool UseVisualCue = false,
+	},
+	ClickReceiver = 
+	{
+		string GrantTreeAbility = "TreeSkillMushroom",
+		string GrantPhysAbility = "",
+		bool Receivable = true,
+	},
+	CreateSpawnerAtInit = 
+	{
+		uint Teleporter = 0,
+		float Delay = 60,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "5299427515adebae:Monster",
+		Vec3 Offset = [0, 0, 0],
+		Vec3 Size = [0.35, 0.275, 0.5],
+	},
+	AIMovementCharging = 
+	{
+		float Speed = 0.05,
+		Vec3 InitialDirection = [1, 0, 0],
+		bool Active = true,
+		Vec3 DetectionBox = [7, 1, 1],
+		string AnimTable = "5299592052a4a290:MushroomM",
+	},
+	CanBounce = 
+	{
+		bool Active = false,
+		float ForcedVx = 0,
+		float ForcedVy = 10,
+		bool UpdateBasedOnSprite = true,
+		bool TopModify = false,
+	},
+	Bounceable = 
+	{
+		float Decay = 1,
+		bool Active = true,
+	},
+	Burnable = 
+	{
+		bool PropagateBurn = true,
+		float HurtRate = 0,
+		float Amplifier = 1,
+		float PropagateDelay = 0,
+	},
+	Hierarchy = 
+	{
+		ArchetypeInstance = 
+		{
+			string Name = "52938aad93757f99:CircularPreventer",
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-0.347353, -0.275195, -4.76837e-007],
+				Vec3 Scale = [0.153846, 0.153846, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "CircularPreventer",
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 3,
+			},
+			Named = 
+			{
+				string Name = "InvisibleBouncer",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.312304, 0.205913, 0.0120005],
+				Vec3 Scale = [0.230769, 0.230769, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5274db4c2e7c11f9:Circle",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = false,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			CanBounce = 
+			{
+				bool Active = true,
+				float ForcedVx = 2.5,
+				float ForcedVy = 2.5,
+				bool UpdateBasedOnSprite = false,
+				bool TopModify = false,
+			},
+			SphereCollider = 
+			{
+				bool Ghost = true,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+				Vec3 Offset = [0, 0, 0],
+				float Radius = 0.15,
+			},
+			FunBouncerManager = 
+			{
+			},
+		},
+	},
+},

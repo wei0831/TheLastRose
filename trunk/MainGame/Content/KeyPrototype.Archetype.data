@@ -1,0 +1,85 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "RedKey",
+	},
+	Archetyped = 
+	{
+		string Name = "529429af01c5a1a3:KeyPrototype",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-26.6505, -13.7312, 0],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5292c4f7d105b263:Key_Grey",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	Key = 
+	{
+		string KeyValue = "Grey",
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "529676e217b29d78:Item",
+		Vec3 Offset = [0, 0, 0],
+		Vec3 Size = [0.225, 0.125, 0.5],
+	},
+	DestroyCreateArchetype = 
+	{
+		string Archetype = "526adb74986f6a52:GoldParticle",
+		float EffectLifeTime = 0,
+		float DieDelay = 0,
+		Vec3 Offset = [0, 0, 0],
+		Vec3 PositionOverride = [0, 0, 0],
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = false,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	Bounceable = 
+	{
+		float Decay = 0.9,
+		bool Active = true,
+	},
+	DestroyInterface = 
+	{
+	},
+	KeySpriteManager = 
+	{
+		string SpriteTable = "5292c4b1d95ebf66:KeyTable",
+		float ShineDelay = 1.7,
+	},
+	GottenAnim = 
+	{
+	},
+},

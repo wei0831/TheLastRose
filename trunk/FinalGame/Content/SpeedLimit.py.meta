@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SpeedLimit",
+		uint64 ResourceId = 528e36f27b645034,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "LightMove",
+		uint64 ResourceId = 52b1e8f1aef20517,
+	},
+},

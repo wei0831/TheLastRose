@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "MushroomMWalk",
+		uint64 ResourceId = 52996d21cf9c93cf,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 64,
+		uint FrameSizeY = 48,
+		uint FrameCount = 4,
+		float FrameDelay = 0.111111,
+		float OriginX = 32,
+		float OriginY = 24,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},

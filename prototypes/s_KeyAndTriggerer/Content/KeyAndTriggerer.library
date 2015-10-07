@@ -1,0 +1,19 @@
+ContentLibrary = 
+{
+	string Name = "KeyAndTriggerer",
+	Array Files = 
+	[
+		"CanTrigger.py",
+		"Game.data",
+		"Key.py",
+		"KeyHoleDoor.py",
+		"KeyRing.py",
+		"Level.data",
+		"Space.data",
+		"TriggerDoor.py",
+		"Triggerer.py",
+	],
+	uint64 LibraryId = 52e553a3c7526d9a,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

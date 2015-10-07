@@ -1,0 +1,50 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Rose",
+	},
+	Archetyped = 
+	{
+		string Name = "5284dc10e1898bac:Rose",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-65.9523, -15.0174, 0.2],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "5284d7d6b75f2892:RoseBloomeFrame1",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+		Vec3 Offset = [0, 0.25, 0],
+		Vec3 Size = [0.125, 0.25, 0.5],
+	},
+	TouchAnimChange = 
+	{
+		bool Active = true,
+		string AnimTable = "5284da9d124cff00:RoseTable",
+	},
+},

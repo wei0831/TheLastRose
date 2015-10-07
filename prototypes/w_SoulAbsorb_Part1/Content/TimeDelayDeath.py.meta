@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TimeDelayDeath",
+		uint64 ResourceId = 528fae399867f48c,
+	},
+},

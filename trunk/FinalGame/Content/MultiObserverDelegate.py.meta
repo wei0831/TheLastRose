@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "MultiObserverDelegate",
+		uint64 ResourceId = 5283155e25c475c2,
+	},
+},

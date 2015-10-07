@@ -1,0 +1,38 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "GrowableGround",
+	},
+	Archetyped = 
+	{
+		string Name = "5260847189436b69:GrowableSentryGround",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, 0, 0],
+		Vec3 Scale = [1.25722, 0.537818, 1.29343],
+		Quat Rotation = [0, 0, 1, -4.37114e-008],
+	},
+	GrowableGround = 
+	{
+	},
+	MeshCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "52a8b588de226691:Ground",
+		Vec3 Offset = [0, 0, 0],
+		string PhysicsMeshName = "4ee13192dc049505:Cube",
+	},
+	IsSentry = 
+	{
+		Vec3 SentryDirection = [0, 0, 0],
+	},
+},

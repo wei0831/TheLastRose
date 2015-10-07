@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TreeSkillWhirlingnut",
+		uint64 ResourceId = 524f525a0a956dcb,
+	},
+},

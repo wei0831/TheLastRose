@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AbilitySoulBehavior",
+		uint64 ResourceId = 5276751f96011ed5,
+	},
+},

@@ -1,0 +1,72 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "YellingTemplate",
+	},
+	Archetyped = 
+	{
+		string Name = "52ba582274c2a672:YellingTemplate",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [-31.2152, -2.41485, 1],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SpriteText = 
+	{
+		SpriteGeometryMode GeometryMode = ZPlane,
+		TextPositionMode Position = UpperLeft,
+		string FontName = "529c5a3dfb4792d6:04B_03__",
+		uint FontSize = 16,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		string Text = "TextBox",
+		bool OnTop = true,
+		BlendMode BlendMode = Alpha,
+		Vec2 Size = [0, 0],
+		TextAlign Align = Left,
+		float PixelsPerUnit = 64,
+	},
+	TypeScript = 
+	{
+		string String = "",
+		float Delay = 0.015,
+		bool Active = true,
+		bool Repeat = false,
+		bool CollisionActivate = false,
+		int EmphasizeStart = 62,
+		int EmphasizeEnd = 79,
+		float DestroyDelay = 1.5,
+		bool Reactivatable = false,
+		Vec4 EmphasizerColor = [1, 0, 0, 1],
+		Vec4 BoxColor = [0.1, 0.1, 0.1, 0.9],
+		Vec4 WordColor = [1, 1, 1, 1],
+		bool CreateVisual = false,
+		Vec4 VisualCueColor = [0.505, 1, 0.50995, 0.9999],
+		int CharsPerLine = 0,
+		uint ActivateWhenTargetDestroyed = 0,
+		bool ImmediatePlayMessage = true,
+		uint DestroyWhenTargetDestroyed = 0,
+		bool ShouldBeRealDestroyed = true,
+		float DestroySpeed = 0.75,
+	},
+	BoxCollider = 
+	{
+		bool Ghost = true,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "52673b9fa454423d:CollideOnlyWithPlayer",
+		Vec3 Offset = [-0.5, -1.5, 0],
+		Vec3 Size = [1.5, 1.5, 0.5],
+	},
+	DestroyInterface = 
+	{
+	},
+},

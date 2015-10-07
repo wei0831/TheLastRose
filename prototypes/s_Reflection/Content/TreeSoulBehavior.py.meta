@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TreeSoulBehavior",
+		uint64 ResourceId = 52667d1efddfd790,
+	},
+},

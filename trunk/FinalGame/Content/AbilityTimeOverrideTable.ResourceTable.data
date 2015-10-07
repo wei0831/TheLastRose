@@ -1,0 +1,33 @@
+ResourceTable = 
+{
+	string ResourceType = "String",
+	Array EntryList = 
+	[
+		{
+			string Name = "Level3_1",
+			string Value = "60",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_2",
+			string Value = "60",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_3",
+			string Value = "60",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_4",
+			string Value = "600",
+			float Weight = 1,
+		},
+		{
+			string Name = "Level3_5",
+			string Value = "600",
+			float Weight = 1,
+		},
+	],
+	float MaxWeight = 1,
+},

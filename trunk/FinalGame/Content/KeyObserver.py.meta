@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "KeyObserver",
+		uint64 ResourceId = 5292c3e5345ab242,
+	},
+},

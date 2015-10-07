@@ -1,0 +1,95 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "EnemyBullet",
+	},
+	Archetyped = 
+	{
+		string Name = "52992e4547175071:EnemyBullet",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, 0, 0],
+		Vec3 Scale = [2, 2, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "52994f27c1cbf95f:Enemy_Turnip_Projectile",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+	},
+	SphereCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = false,
+		string MaterialName = "4faa6050b8692851:HardMaterial",
+		string SerializedGroupName = "52992b86c99713e4:Bullet",
+		Vec3 Offset = [-0.03, -0.03, 0],
+		float Radius = 0.04,
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = false,
+		bool Mode2D = false,
+		bool AllowSleep = true,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	CanHurtOnce = 
+	{
+		float HurtValue = -1.3,
+		bool Active = true,
+	},
+	GravityEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = false,
+		bool LocalSpaceDirection = false,
+		float Strength = 20,
+		Vec3 Direction = [0, 1, 0],
+	},
+	BulletLogic = 
+	{
+	},
+	TimedDeath = 
+	{
+		float LifeTime = 1,
+		bool Active = false,
+		bool DestroyAtTheEnd = true,
+	},
+	DestroyFadeAnim = 
+	{
+		bool InvalidateColliderBox = true,
+	},
+	FadeAnim = 
+	{
+		float FadingDuration = 1,
+		bool Active = false,
+		int FadeDirection = -1,
+		bool Repeat = false,
+		bool InitializeToTransparent = false,
+	},
+	ActionList = 
+	{
+		bool Active = true,
+	},
+},

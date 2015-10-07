@@ -1,0 +1,20 @@
+SoundCue = 
+{
+	PlayMode PlayMode = Single,
+	float Volume = 0.49,
+	float VolumeVariation = 0,
+	float Pitch = 0,
+	float PitchVariation = 0,
+	float MinDistance = 10,
+	float MaxDistance = 10000,
+	float PositionRandomization = 0,
+	uint MaxPlaybacks = 10,
+	int Priority = 128,
+	Array Sounds = 
+	[
+		{
+			string SoundName = "52ba7203e605d115:Revised Mushroom Growth 4",
+			float Weight = 1,
+		},
+	],
+},

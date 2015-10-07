@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "RootMOut",
+		uint64 ResourceId = 52996c90994202e2,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 32,
+		uint FrameSizeY = 64,
+		uint FrameCount = 6,
+		float FrameDelay = 0.0909091,
+		float OriginX = 16,
+		float OriginY = 64,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},

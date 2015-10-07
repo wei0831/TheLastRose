@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AutoRotation",
+		uint64 ResourceId = 52b5eaf131ed9965,
+	},
+},

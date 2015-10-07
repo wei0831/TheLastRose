@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AnimManager",
+		uint64 ResourceId = 526b097d5c79ca68,
+	},
+},

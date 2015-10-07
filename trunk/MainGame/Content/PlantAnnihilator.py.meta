@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PlantAnnihilator",
+		uint64 ResourceId = 527701955df5c180,
+	},
+},

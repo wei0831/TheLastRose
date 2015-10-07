@@ -1,0 +1,20 @@
+SoundCue = 
+{
+	PlayMode PlayMode = Single,
+	float Volume = 0.24,
+	float VolumeVariation = 0.13,
+	float Pitch = 0,
+	float PitchVariation = 0,
+	float MinDistance = 10,
+	float MaxDistance = 10000,
+	float PositionRandomization = 0,
+	uint MaxPlaybacks = 10,
+	int Priority = 128,
+	Array Sounds = 
+	[
+		{
+			string SoundName = "52ba78183c829782:My Revised Turnip Shoot",
+			float Weight = 1,
+		},
+	],
+},

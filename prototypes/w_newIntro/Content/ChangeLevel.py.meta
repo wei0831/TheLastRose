@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ChangeLevel",
+		uint64 ResourceId = 5263f89971a8c56a,
+	},
+},

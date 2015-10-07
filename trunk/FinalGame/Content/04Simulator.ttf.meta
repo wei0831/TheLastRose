@@ -1,0 +1,8 @@
+FontContent = 
+{
+	FontBuilder = 
+	{
+		string Name = "04Simulator",
+		uint64 ResourceId = 52badc22efe07203,
+	},
+},

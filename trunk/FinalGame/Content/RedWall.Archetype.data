@@ -1,0 +1,551 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "RedWall",
+	},
+	Archetyped = 
+	{
+		string Name = "5292310cada932db:RedWall",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [6.03381, -9.87174, 0],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	TriggerDoor = 
+	{
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-9.53674e-007, -1.21623, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [-1, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 3,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [1.90735e-006, -1.71167, 1.7053e-013],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 4,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, -0.23424, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 5,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-9.53674e-007, 0.234224, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 6,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-9.53674e-007, 0.729725, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 7,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Archetyped = 
+			{
+				string Name = "5292eb84f19eeb04:redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0, -0.72974, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 8,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-9.53674e-007, 1.23057, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 9,
+			},
+			Named = 
+			{
+				string Name = "redblock",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [-9.53674e-007, 1.73232, 0],
+				Vec3 Scale = [1, 1, 1],
+				Quat Rotation = [0, 0, 5.96045e-008, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "529a8f46e7bceabd:redblock",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = true,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+			},
+			FadeAnim = 
+			{
+				float FadingDuration = 1,
+				bool Active = false,
+				int FadeDirection = -1,
+				bool Repeat = false,
+				bool InitializeToTransparent = false,
+			},
+			BoxCollider = 
+			{
+				bool Ghost = false,
+				bool SendsMessages = true,
+				bool Seamless = false,
+				string MaterialName = "4faa6050b8692851:HardMaterial",
+				string SerializedGroupName = "52a8b588de226691:Ground",
+				Vec3 Offset = [0, 0, 0],
+				Vec3 Size = [0.25, 0.25, 0.5],
+			},
+			IsSentry = 
+			{
+				Vec3 SentryDirection = [0, 0, 0],
+			},
+			RigidBody = 
+			{
+				bool Static = true,
+				bool Asleep = false,
+				bool Kinematic = false,
+				bool RotationLocked = false,
+				bool Mode2D = true,
+				bool AllowSleep = false,
+				bool Inherit2DMode = true,
+				Vec3 Velocity = [0, 0, 0],
+				Vec3 AngularVelocity = [0, 0, 0],
+			},
+		},
+	},
+},

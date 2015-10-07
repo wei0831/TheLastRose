@@ -1,0 +1,19 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "RootMWalk",
+		uint64 ResourceId = 52996cb59d9bd80e,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 40,
+		uint FrameSizeY = 40,
+		uint FrameCount = 4,
+		float FrameDelay = 0.111111,
+		float OriginX = 20,
+		float OriginY = 40,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+	},
+},
