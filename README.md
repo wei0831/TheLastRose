@@ -2,6 +2,8 @@
 
 2013 GAM100F Final Game Project at DigiPen Institude of Technology
 
+## [Download](https://github.com/wei0831/theLastRose/releases)
+
 ## Gameplay Trailer
 [![Gameplay Trailer](http://img.youtube.com/vi/yTj--7ObBLw/0.jpg)](https://youtu.be/yTj--7ObBLw)
 
